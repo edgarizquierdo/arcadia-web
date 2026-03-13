@@ -4862,3 +4862,173 @@ padding:30px 18px;
 
 }
 
+/* ===============================
+   ARCADIA MOBILE FIX
+=============================== */
+
+@media screen and (max-width:768px){
+
+/* RESET GENERAL */
+
+#wrapper{
+padding:0;
+overflow-x:hidden;
+}
+
+section{
+display:block;
+padding:40px 22px;
+}
+
+section header{
+width:100%;
+padding:20px 0;
+margin-bottom:20px;
+}
+
+section .content{
+width:100%;
+padding:0;
+}
+
+/* HERO */
+
+.intro{
+min-height:auto;
+}
+
+.intro header{
+text-align:center;
+}
+
+.intro .image.fill{
+position:relative !important;
+height:auto !important;
+margin-top:20px;
+}
+
+.intro .image.fill img{
+width:100%;
+height:auto;
+object-fit:cover;
+}
+
+/* LOGO HERO */
+
+.hero-logo{
+position:relative !important;
+display:block;
+margin:20px auto;
+transform:none;
+top:auto;
+left:auto;
+width:140px;
+}
+
+/* IMAGES */
+
+.image img{
+width:100%;
+height:auto;
+}
+
+.image.fill{
+height:auto !important;
+}
+
+.image.fill img{
+object-fit:contain;
+}
+
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:18px;
+}
+
+.gallery img{
+width:100%;
+height:auto;
+max-width:140px;
+margin:auto;
+}
+
+/* MAPA */
+
+img[src*="Mapa"]{
+width:100%;
+height:auto;
+}
+
+/* BOTONES */
+
+.actions{
+text-align:center;
+margin-top:20px;
+}
+
+.actions li{
+display:block;
+margin-bottom:12px;
+}
+
+.button{
+display:block;
+width:100%;
+max-width:260px;
+margin:auto;
+}
+
+/* FORMULARIO */
+
+.fields{
+display:block;
+}
+
+.field{
+width:100%;
+margin-bottom:14px;
+}
+
+.field.half{
+width:100%;
+}
+
+textarea{
+height:130px;
+}
+
+/* FOOTER */
+
+footer{
+margin-top:30px;
+}
+
+footer .items{
+display:block;
+text-align:center;
+}
+
+}
+
+
+/* MOBILE PEQUEÑO */
+
+@media screen and (max-width:480px){
+
+section{
+padding:30px 18px;
+}
+
+.gallery{
+grid-template-columns:1fr;
+}
+
+.hero-logo{
+width:120px;
+}
+
+}
+
