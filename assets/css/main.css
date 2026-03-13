@@ -4470,3 +4470,86 @@ box-shadow:0 8px 22px rgba(0,0,0,0.2);
 
 }
 
+/* HERO MOBILE FIX */
+
+@media screen and (max-width: 768px){
+
+.intro{
+min-height:auto;
+}
+
+.intro .content{
+height:auto;
+}
+
+.intro .image.fill{
+position:relative;
+height:260px;
+}
+
+.intro .image.fill img{
+object-fit:cover;
+height:100%;
+}
+
+.hero-logo{
+position:relative;
+top:auto;
+left:auto;
+transform:none;
+display:block;
+margin:20px auto;
+width:180px;
+}
+
+}
+
+/* SECTION MOBILE */
+
+@media screen and (max-width:768px){
+
+section header{
+padding-bottom:20px;
+}
+
+section .content{
+padding-top:0;
+}
+
+section .content p{
+font-size:0.95rem;
+line-height:1.6;
+}
+
+}
+
+/* BUTTON MOBILE */
+
+@media screen and (max-width:768px){
+
+.actions{
+text-align:center;
+}
+
+.button{
+width:100%;
+max-width:260px;
+}
+
+}
+
+/* BUTTON MOBILE */
+
+@media screen and (max-width:768px){
+
+.actions{
+text-align:center;
+}
+
+.button{
+width:100%;
+max-width:260px;
+}
+
+}
+
