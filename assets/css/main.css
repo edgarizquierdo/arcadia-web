@@ -4857,3 +4857,92 @@ width:120px;
 
 }
 
+/* ===========================
+MOBILE LAYOUT FIX
+=========================== */
+
+@media screen and (max-width: 768px){
+
+/* eliminar grid del template */
+
+section{
+display:block !important;
+}
+
+/* header ocupa todo */
+
+section header{
+width:100% !important;
+display:block;
+margin-bottom:20px;
+}
+
+/* content ocupa todo */
+
+section .content{
+width:100% !important;
+display:block;
+}
+
+/* intro hero */
+
+.intro{
+display:block !important;
+}
+
+.intro header{
+text-align:center;
+}
+
+.intro .content{
+display:block;
+}
+
+/* arreglar imagen hero */
+
+.intro .image.fill{
+position:relative !important;
+height:auto !important;
+}
+
+.intro .image.fill img{
+width:100%;
+height:auto;
+}
+
+/* logo */
+
+.hero-logo{
+position:relative !important;
+display:block;
+margin:20px auto;
+transform:none;
+}
+
+/* galería logos */
+
+.gallery{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.gallery img{
+max-width:140px;
+margin:auto;
+}
+
+/* botones */
+
+.actions{
+text-align:center;
+}
+
+.button{
+width:100%;
+max-width:260px;
+margin:auto;
+}
+
+}
+
