@@ -4946,3 +4946,20 @@ margin:auto;
 
 }
 
+/* =========================
+FIX MOBILE HERO
+========================= */
+
+@media screen and (max-width: 768px){
+
+#wrapper > section.intro > .content {
+height: auto !important;
+}
+
+.video-container{
+height:auto !important;
+padding-top:40px;
+}
+
+}
+
