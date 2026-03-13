@@ -4715,3 +4715,236 @@ font-size:0.9rem;
 
 }
 
+/* =========================================
+   MOBILE FIX – ARCADIA
+========================================= */
+
+@media screen and (max-width: 768px){
+
+/* WRAPPER */
+
+#wrapper{
+padding:0;
+overflow-x:hidden;
+}
+
+
+/* SECTIONS */
+
+section{
+padding:40px 20px;
+}
+
+section header{
+margin-bottom:20px;
+padding:20px 0;
+}
+
+section header h1{
+font-size:1.6rem;
+line-height:1.3;
+}
+
+section header h2{
+font-size:1.4rem;
+}
+
+section header h3{
+font-size:1.1rem;
+}
+
+section .content{
+padding-top:0;
+}
+
+
+/* HERO */
+
+.intro{
+min-height:auto;
+padding-bottom:20px;
+}
+
+.intro header{
+text-align:center;
+}
+
+.intro header p{
+font-size:0.95rem;
+}
+
+.intro .image.fill{
+position:relative;
+height:auto;
+margin-top:20px;
+}
+
+.intro .image.fill img{
+width:100%;
+height:auto;
+object-fit:cover;
+}
+
+
+/* HERO LOGO */
+
+.hero-logo{
+position:relative;
+top:auto;
+left:auto;
+transform:none;
+display:block;
+margin:20px auto;
+width:150px;
+}
+
+
+/* IMAGES */
+
+.image{
+margin:20px 0;
+}
+
+.image img{
+width:100%;
+height:auto;
+}
+
+.image.fill{
+height:auto !important;
+}
+
+.image.fill img{
+object-fit:contain;
+}
+
+
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:1fr;
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+height:auto;
+}
+
+
+/* LOGOS / PARTNERS */
+
+.gallery a.landscape{
+display:block;
+text-align:center;
+}
+
+.gallery a.landscape img{
+max-width:160px;
+margin:auto;
+}
+
+
+/* MAP IMAGE */
+
+img[src*="Mapa"]{
+width:100%;
+height:auto;
+}
+
+
+/* BUTTONS */
+
+.actions{
+text-align:center;
+margin-top:20px;
+}
+
+.actions li{
+display:block;
+margin-bottom:10px;
+}
+
+.button{
+display:block;
+width:100%;
+max-width:260px;
+margin:auto;
+}
+
+
+/* FORM */
+
+.fields{
+display:block;
+}
+
+.field{
+width:100%;
+margin-bottom:15px;
+}
+
+.field.half{
+width:100%;
+}
+
+textarea{
+height:140px;
+}
+
+
+/* FOOTER */
+
+footer{
+margin-top:30px;
+}
+
+footer .items{
+display:block;
+text-align:center;
+}
+
+footer .items li{
+margin-bottom:10px;
+}
+
+
+/* LEGAL BAR */
+
+.legal-bar{
+text-align:center;
+padding:20px 10px;
+}
+
+.legal-bar a{
+display:block;
+margin:6px 0;
+font-size:0.9rem;
+}
+
+}
+
+
+/* SMALL MOBILE */
+
+@media screen and (max-width:480px){
+
+section{
+padding:30px 16px;
+}
+
+section header h1{
+font-size:1.4rem;
+}
+
+.hero-logo{
+width:130px;
+}
+
+.gallery a.landscape img{
+max-width:120px;
+}
+
+}
+
