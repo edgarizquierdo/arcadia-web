@@ -3925,7 +3925,8 @@ margin:40px 0 0.6em 0;
 
 .intro header p{
 max-width:380px;
-margin:20px auto 1.2em auto;
+margin:20px 0 1.2em 0;
+text-align:left;
 }
 
 
