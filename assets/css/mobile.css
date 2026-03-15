@@ -309,3 +309,13 @@ margin:40px auto 20px auto;
 }
 
 }
+@media screen and (max-width:768px){
+
+.mapa-espana{
+width:100%;
+max-width:520px;
+display:block;
+margin:40px auto;
+}
+
+}
