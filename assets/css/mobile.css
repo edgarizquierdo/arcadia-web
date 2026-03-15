@@ -224,3 +224,63 @@
     text-align: center !important;
   }
 }
+
+/* =========================
+FIX BLOQUE VERDE
+========================= */
+
+@media screen and (max-width:768px){
+
+section{
+padding:60px 30px;
+}
+
+section.accent{
+padding:70px 30px;
+min-height:auto;
+}
+
+section.accent .content{
+max-width:520px;
+margin:auto;
+}
+
+}
+
+/* =========================
+MAPA ESPAÑA MOBILE FIX
+========================= */
+
+@media screen and (max-width:768px){
+
+img[src*="map"],
+img[src*="Mapa"]{
+
+width:100%;
+height:auto;
+
+max-width:100%;
+
+display:block;
+
+margin:30px auto;
+
+}
+
+}
+
+@media screen and (max-width:768px){
+
+.hero-cta-wrap{
+margin-top:30px;
+}
+
+.hero-login-btn{
+width:100%;
+max-width:260px;
+margin:auto;
+display:block;
+text-align:center;
+}
+
+}
