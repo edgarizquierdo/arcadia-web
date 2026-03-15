@@ -321,15 +321,35 @@ margin:40px auto;
 
 }
 
-/* =========================
-FIX IMAGEN AZUL HERO MOBILE
-========================= */
+/* =================================
+FIX TEMPLATE PARADIGM SHIFT MOBILE
+================================= */
 
 @media screen and (max-width:768px){
 
-.intro .content{
+/* eliminar altura forzada de secciones */
+
+#wrapper > section{
+min-height:auto !important;
+height:auto !important;
+padding:60px 30px;
+}
+
+/* eliminar separación header/content */
+
+#wrapper > section > header{
+margin-bottom:20px;
+}
+
+#wrapper > section > .content{
+margin-top:0;
 padding-top:0;
-margin-top:-20px;
+}
+
+/* arreglar imagen azul */
+
+.intro .content{
+margin-top:-40px;
 }
 
 .intro .content img{
@@ -337,25 +357,12 @@ width:100%;
 height:auto;
 display:block;
 margin:0;
-border-radius:0;
 }
 
-}
+/* compactar bloque referentes */
 
-/* =========================
-ARREGLAR ALTURA BLOQUE VERDE
-SOLO MOBILE
-========================= */
-
-@media screen and (max-width:768px){
-
-section.accent{
-min-height:auto !important;
-height:auto !important;
-}
-
-section.accent .content{
-padding-bottom:40px;
+.dca-members{
+margin-top:40px !important;
 }
 
 }
