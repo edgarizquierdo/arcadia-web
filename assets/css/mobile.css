@@ -342,3 +342,21 @@ border-radius:0;
 
 }
 
+/* =========================
+ARREGLAR ALTURA BLOQUE VERDE
+SOLO MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+section.accent{
+min-height:auto !important;
+height:auto !important;
+}
+
+section.accent .content{
+padding-bottom:40px;
+}
+
+}
+
