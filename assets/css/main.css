@@ -4271,4 +4271,22 @@ text-align:center;
 margin-top:40px;
 }
 
+/* =========================
+FIX HERO DESKTOP
+========================= */
 
+@media screen and (min-width:980px){
+
+.intro{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+}
+
+.intro header{
+max-width:520px;
+margin:auto;
+padding-right:0;
+}
+
+}
