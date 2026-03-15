@@ -3914,17 +3914,13 @@ box-shadow:0 30px 80px rgba(0,0,0,0.35);
 HERO HEADER
 ========================= */
 
-.intro header{
-text-align:center;
-padding-top:40px;
-padding-right:4rem;
-}
+
 
 .intro header h1{
 font-size:3.2rem;
 line-height:1.1;
 max-width:420px;
-margin:80px auto 0.6em auto;
+margin:40px auto 0.6em auto;
 }
 
 .intro header p{
