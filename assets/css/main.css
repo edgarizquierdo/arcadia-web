@@ -3885,7 +3885,14 @@ input, select, textarea {
 	margin-top:550px;
 }
 
-/* VIDEO HERO */
+/* =================================================
+ARCADIA – DESKTOP CUSTOM
+================================================= */
+
+
+/* =========================
+VIDEO HERO
+========================= */
 
 .video-container{
 display:flex;
@@ -3902,8 +3909,14 @@ border-radius:14px;
 box-shadow:0 30px 80px rgba(0,0,0,0.35);
 }
 
+
+/* =========================
+HERO HEADER
+========================= */
+
 .intro header{
-text-align:right;
+text-align:center;
+padding-top:40px;
 padding-right:4rem;
 }
 
@@ -3911,44 +3924,84 @@ padding-right:4rem;
 font-size:3.2rem;
 line-height:1.1;
 max-width:420px;
-margin-left:auto;
+margin:80px auto 0.6em auto;
 }
 
 .intro header p{
 max-width:380px;
-margin-left:auto;
+margin:20px auto 1.2em auto;
 }
 
-.icon-header{
+
+/* =========================
+LOGO HERO
+========================= */
+
+.intro .logo{
 display:block;
-margin-top:50px;
-text-align:right;
+margin:0 0 1.25rem 0;
+text-align:center;
 }
 
-.icon-header img{
-width:170px;
+.intro .logo img{
+width:260px;
+max-width:100%;
+display:block;
+margin:0 auto;
 }
 
-.image.main img{
-max-width:180px;
-margin-top:30px;
+
+/* =========================
+CTA LOGIN
+========================= */
+
+.hero-cta-wrap{
+margin-top:2.25rem;
+display:flex;
+justify-content:center;
+width:100%;
 }
 
-.features article{
-transform: scale(1.4);
-margin: 30px;
+.hero-login-btn{
+
+display:inline-block;
+padding:14px 28px;
+
+background:#134f4a;
+color:white;
+
+font-weight:600;
+letter-spacing:1px;
+
+border-radius:6px;
+text-decoration:none;
+
+transition:all .25s ease;
+
 }
 
-.features article .icon{
-font-size: 2.5rem;
+.hero-login-btn:hover{
+
+background:#0e3e3a;
+transform:translateY(-2px);
+
+box-shadow:0 6px 18px rgba(0,0,0,0.15);
+
 }
+
+
+/* =========================
+IMAGES
+========================= */
 
 .image.main{
-max-width: 520px;
+max-width:520px;
 }
 
 .image.main img{
-width: 100%;
+width:100%;
+max-width:180px;
+margin-top:30px;
 }
 
 .big-image{
@@ -3962,229 +4015,28 @@ width:450px;
 max-width:none;
 }
 
-/* Reducir espacio entre bloques de texto en intro */
 
-.intro header h1{
-margin-bottom: 0.6em;
+/* =========================
+FEATURES
+========================= */
+
+.features article{
+transform:scale(1.4);
+margin:30px;
 }
 
-.intro header p{
-margin-bottom: 1.2em;
+.features article .icon{
+font-size:2.5rem;
 }
 
-.intro header .actions{
-margin-top: 1em;
-}
-
-.logo{
-position:relative;
-display:block;
-text-align:right;
-margin-top:-120px;
-margin-bottom:20px;
-}
-
-.logo img{
-width:320px;
-}
-
-.logo{
-display:block;
-text-align:right;
-margin-bottom:30px;
-}
-
-.logo img{
-width:320px;
-}
-
-.intro header{
-padding-top:40px;
-}
-
-/* ===== HERO ARCÀDIA: overrides reales del template ===== */
-
-.intro header {
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-}
-
-.intro .logo {
-	display: block;
-	margin: 0 0 1.25rem 0;
-}
-
-.intro .logo img {
-	width: 260px;
-	max-width: 100%;
-	display: block;
-	margin: 0 auto;
-}
-
-.intro header p {
-	margin-bottom: 0;
-}
-
-/* sacamos el CTA del sistema actions del template */
-.hero-cta-wrap {
-	margin-top: 2.25rem;
-	display: flex;
-	justify-content: center;
-	width: 100%;
-}
-
-.hero-login-btn {
-	display: inline-block;
-	background: #114c46;
-	color: #ffffff !important;
-	text-decoration: none;
-	border-radius: 0.5rem;
-	padding: 0.9rem 1.8rem;
-	font-size: 0.95rem;
-	font-weight: 700;
-	letter-spacing: 0.08em;
-	line-height: 1;
-	width: auto !important;
-	min-width: 0 !important;
-	max-width: none !important;
-	border: 0;
-	box-shadow: none;
-}
-
-.hero-login-btn:hover {
-	background: #0a3b36;
-}
-
-/* separa la flecha del botón */
-.intro .actions {
-	margin-top: 2rem;
-}
-
-/* móvil */
-@media screen and (max-width: 736px) {
-	.intro .logo img {
-		width: 210px;
-	}
-
-	.hero-cta-wrap {
-		margin-top: 1.75rem;
-	}
-
-	.hero-login-btn {
-		padding: 0.85rem 1.4rem;
-		font-size: 0.9rem;
-	}
-}
-
-/* ===== HERO ARCÀDIA: overrides reales del template ===== */
-
-.intro header {
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-}
-
-.intro .logo {
-	display: block;
-	margin: 0 0 1.25rem 0;
-}
-
-.intro .logo img {
-	width: 260px;
-	max-width: 100%;
-	display: block;
-	margin: 0 auto;
-}
-
-.intro header p {
-	margin-bottom: 0;
-}
-
-/* sacamos el CTA del sistema actions del template */
-.hero-cta-wrap {
-	margin-top: 2.25rem;
-	display: flex;
-	justify-content: center;
-	width: 100%;
-}
-
-.hero-login-btn {
-	display: inline-block;
-	background: #114c46;
-	color: #ffffff !important;
-	text-decoration: none;
-	border-radius: 0.5rem;
-	padding: 0.9rem 1.8rem;
-	font-size: 0.95rem;
-	font-weight: 700;
-	letter-spacing: 0.08em;
-	line-height: 1;
-	width: auto !important;
-	min-width: 0 !important;
-	max-width: none !important;
-	border: 0;
-	box-shadow: none;
-}
-
-.hero-login-btn:hover {
-	background: #0a3b36;
-}
-
-/* separa la flecha del botón */
-.intro .actions {
-	margin-top: 2rem;
-}
-
-/* móvil */
-@media screen and (max-width: 736px) {
-	.intro .logo img {
-		width: 210px;
-	}
-
-	.hero-cta-wrap {
-		margin-top: 1.75rem;
-	}
-
-	.hero-login-btn {
-		padding: 0.85rem 1.4rem;
-		font-size: 0.9rem;
-	}
-}
-
-/* BAJAR CONTENIDO HERO PARA QUE EL LOGO QUEDE MÁS ARRIBA */
-
-.intro header h1{
-margin-top:80px;
-}
-
-.intro header p{
-margin-top:20px;
-}
-
-.hero-login-btn{
-margin-top:40px;
-}
-
-/* mover todo el contenido del hero hacia abajo */
-
-.intro header{
-transform:translateY(80px);
-}
-
-.volver-home{
-color:#114c46 !important;
-font-weight:600;
-}
 
 /* =====================
-LOGOS ARCARDIA
+LOGOS GRID
 ===================== */
 
 .logos-grid{
 
 display:grid;
-
 grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
 
 gap:30px;
@@ -4194,9 +4046,6 @@ align-items:center;
 margin-top:20px;
 
 }
-
-
-/* caja uniforme */
 
 .logo-item{
 
@@ -4210,17 +4059,12 @@ justify-content:center;
 
 }
 
-
-/* logo */
-
 .logo-item img{
 
 max-height:55px;
-
 max-width:140px;
 
 width:auto;
-
 height:auto;
 
 opacity:.75;
@@ -4231,9 +4075,6 @@ transition:all .25s ease;
 
 }
 
-
-/* hover */
-
 .logo-item img:hover{
 
 opacity:1;
@@ -4243,9 +4084,6 @@ filter:grayscale(0);
 transform:scale(1.05);
 
 }
-
-
-/* partners más grandes */
 
 .logos-grid.small .logo-item{
 
@@ -4264,49 +4102,10 @@ margin-top:10px;
 margin-bottom:20px;
 }
 
+
 /* ======================
 LEGAL FOOTER
 ====================== */
-
-.legal-bar{
-
-background:#2f4b6b;
-
-padding:30px 20px;
-
-display:flex;
-
-justify-content:center;
-
-gap:80px;
-
-flex-wrap:wrap;
-
-font-size:14px;
-
-letter-spacing:2px;
-
-text-transform:uppercase;
-
-}
-
-.legal-bar a{
-
-color:white;
-
-text-decoration:none;
-
-opacity:.8;
-
-transition:opacity .25s ease;
-
-}
-
-.legal-bar a:hover{
-
-opacity:1;
-
-}
 
 .legal-bar{
 
@@ -4348,6 +4147,11 @@ opacity:1;
 
 }
 
+
+/* =========================
+SMALL ACTIONS
+========================= */
+
 .small-actions .button{
 
 font-size:12px;
@@ -4366,78 +4170,10 @@ flex-wrap:wrap;
 
 }
 
-/* =========================
-   HERO LOGO ARCADIA
-========================= */
-
-.hero-logo{
-position:absolute;
-top:50%;
-left:8%;
-transform:translateY(-50%);
-width:420px;
-max-width:40%;
-z-index:10;
-opacity:0.95;
-transition:all 0.4s ease;
-}
-
-.hero-logo:hover{
-transform:translateY(-50%) scale(1.03);
-}
 
 /* =========================
-   HERO OVERLAY
+VOLVER HOME BUTTON
 ========================= */
-
-.intro .content::after{
-content:"";
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:linear-gradient(
-90deg,
-rgba(0,0,0,0.15) 0%,
-rgba(0,0,0,0.05) 40%,
-rgba(0,0,0,0) 70%
-);
-pointer-events:none;
-}
-
-/* =========================
-   BOTÓN LOGIN
-========================= */
-
-.hero-login-btn{
-
-display:inline-block;
-padding:14px 28px;
-
-background:#134f4a;
-color:white;
-
-font-weight:600;
-letter-spacing:1px;
-
-border-radius:6px;
-text-decoration:none;
-
-transition:all .25s ease;
-
-}
-
-.hero-login-btn:hover{
-
-background:#0e3e3a;
-transform:translateY(-2px);
-
-box-shadow:0 6px 18px rgba(0,0,0,0.15);
-
-}
-
-/* BOTON VOLVER HOME */
 
 .volver-home{
 
@@ -4470,496 +4206,29 @@ box-shadow:0 8px 22px rgba(0,0,0,0.2);
 
 }
 
-/* =================================================
-   MOBILE OPTIMIZATION – ARCADIA
-   ================================================= */
-
-@media screen and (max-width: 768px){
-
-/* ========================================
-   LAYOUT GENERAL
-======================================== */
-
-#wrapper{
-padding:0;
-}
-
-section{
-padding:40px 20px;
-}
-
-section header{
-margin-bottom:20px;
-}
-
-section header h1{
-font-size:1.6rem;
-line-height:1.3;
-}
-
-section header h2{
-font-size:1.4rem;
-}
-
-section header h3{
-font-size:1.1rem;
-}
-
-section .content{
-padding-top:0;
-}
-
-p{
-font-size:0.95rem;
-line-height:1.6;
-}
-
-
-/* ========================================
-   HERO
-======================================== */
-
-.intro{
-min-height:auto;
-padding-bottom:30px;
-}
-
-.intro header{
-text-align:center;
-}
-
-.intro header p{
-font-size:0.95rem;
-}
-
-.intro .image.fill{
-position:relative;
-height:240px;
-margin-top:20px;
-}
-
-.intro .image.fill img{
-width:100%;
-height:100%;
-object-fit:cover;
-}
-
-
-/* logo hero */
-
-.hero-logo{
-position:relative;
-top:auto;
-left:auto;
-transform:none;
-display:block;
-margin:20px auto;
-width:160px;
-max-width:60%;
-}
-
-
-/* ========================================
-   IMÁGENES
-======================================== */
-
-.image{
-margin:20px 0;
-}
-
-.image.big-image img{
-width:100%;
-height:auto;
-}
-
-.image.fill{
-height:auto !important;
-}
-
-.image.fill img{
-height:auto;
-object-fit:contain;
-}
-
-.gallery{
-display:block;
-}
-
-.gallery a{
-display:block;
-margin-bottom:15px;
-}
-
-.gallery img{
-width:100%;
-height:auto;
-}
-
-
-/* ========================================
-   MAPAS / IMÁGENES GRANDES
-======================================== */
-
-img[src*="Mapa"],
-img[src*="map"]{
-width:100%;
-height:auto;
-}
-
-
-/* ========================================
-   BOTONES
-======================================== */
-
-.actions{
-text-align:center;
-margin-top:20px;
-}
-
-.actions li{
-display:block;
-margin-bottom:10px;
-}
-
-.button{
-width:100%;
-max-width:280px;
-margin:0 auto;
-display:block;
-}
-
-
-/* ========================================
-   FORMULARIO
-======================================== */
-
-.fields{
-display:block;
-}
-
-.field{
-width:100%;
-margin-bottom:15px;
-}
-
-.field.half{
-width:100%;
-}
-
-textarea{
-height:140px;
-}
-
-
-/* ========================================
-   FOOTER
-======================================== */
-
-footer{
-margin-top:40px;
-}
-
-footer .items{
-display:block;
-text-align:center;
-}
-
-footer .items li{
-margin-bottom:10px;
-}
-
-
-/* ========================================
-   LEGAL BAR
-======================================== */
-
-.legal-bar{
-text-align:center;
-padding:20px 10px;
-}
-
-.legal-bar a{
-display:block;
-margin:6px 0;
-font-size:0.9rem;
-}
-
-}
-
-
-/* ===============================
-   ARCADIA MOBILE FIX
-=============================== */
-
-@media screen and (max-width:768px){
-
-/* RESET GENERAL */
-
-#wrapper{
-padding:0;
-overflow-x:hidden;
-}
-
-section{
-display:block;
-padding:40px 22px;
-}
-
-section header{
-width:100%;
-padding:20px 0;
-margin-bottom:20px;
-}
-
-section .content{
-width:100%;
-padding:0;
-}
-
-/* HERO */
-
-.intro{
-min-height:auto;
-}
-
-.intro header{
-text-align:center;
-}
-
-.intro .image.fill{
-position:relative !important;
-height:auto !important;
-margin-top:20px;
-}
-
-.intro .image.fill img{
-width:100%;
-height:auto;
-object-fit:cover;
-}
-
-/* LOGO HERO */
-
-.hero-logo{
-position:relative !important;
-display:block;
-margin:20px auto;
-transform:none;
-top:auto;
-left:auto;
-width:140px;
-}
-
-/* IMAGES */
-
-.image img{
-width:100%;
-height:auto;
-}
-
-.image.fill{
-height:auto !important;
-}
-
-.image.fill img{
-object-fit:contain;
-}
-
-/* GALLERY */
-
-.gallery{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:18px;
-}
-
-.gallery img{
-width:100%;
-height:auto;
-max-width:140px;
-margin:auto;
-}
-
-/* MAPA */
-
-img[src*="Mapa"]{
-width:100%;
-height:auto;
-}
-
-/* BOTONES */
-
-.actions{
-text-align:center;
-margin-top:20px;
-}
-
-.actions li{
-display:block;
-margin-bottom:12px;
-}
-
-.button{
-display:block;
-width:100%;
-max-width:260px;
-margin:auto;
-}
-
-/* FORMULARIO */
-
-.fields{
-display:block;
-}
-
-.field{
-width:100%;
-margin-bottom:14px;
-}
-
-.field.half{
-width:100%;
-}
-
-textarea{
-height:130px;
-}
-
-/* FOOTER */
-
-footer{
-margin-top:30px;
-}
-
-footer .items{
-display:block;
-text-align:center;
-}
-
-}
-
-
-/* MOBILE PEQUEÑO */
-
-@media screen and (max-width:480px){
-
-section{
-padding:30px 18px;
-}
-
-.gallery{
-grid-template-columns:1fr;
-}
-
-.hero-logo{
-width:120px;
-}
-
-}
-
-/* ===========================
-MOBILE LAYOUT FIX
-=========================== */
-
-@media screen and (max-width: 768px){
-
-/* eliminar grid del template */
-
-section{
-display:block !important;
-}
-
-/* header ocupa todo */
-
-section header{
-width:100% !important;
-display:block;
-margin-bottom:20px;
-}
-
-/* content ocupa todo */
-
-section .content{
-width:100% !important;
-display:block;
-}
-
-/* intro hero */
-
-.intro{
-display:block !important;
-}
-
-.intro header{
-text-align:center;
-}
-
-.intro .content{
-display:block;
-}
-
-/* arreglar imagen hero */
-
-.intro .image.fill{
-position:relative !important;
-height:auto !important;
-}
-
-.intro .image.fill img{
-width:100%;
-height:auto;
-}
-
-/* logo */
-
-.hero-logo{
-position:relative !important;
-display:block;
-margin:20px auto;
-transform:none;
-}
-
-/* galería logos */
-
-.gallery{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:20px;
-}
-
-.gallery img{
-max-width:140px;
-margin:auto;
-}
-
-/* botones */
-
-.actions{
-text-align:center;
-}
-
-.button{
-width:100%;
-max-width:260px;
-margin:auto;
-}
-
-}
 
 /* =========================
-FIX MOBILE HERO
+HERO OVERLAY
 ========================= */
 
-@media screen and (max-width: 768px){
+.intro .content::after{
 
-#wrapper > section.intro > .content {
-height: auto !important;
+content:"";
+
+position:absolute;
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:linear-gradient(
+90deg,
+rgba(0,0,0,0.15) 0%,
+rgba(0,0,0,0.05) 40%,
+rgba(0,0,0,0) 70%
+);
+
+pointer-events:none;
+
 }
-
-.video-container{
-height:auto !important;
-padding-top:40px;
-}
-
-}
-
