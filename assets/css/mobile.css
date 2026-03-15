@@ -367,3 +367,19 @@ margin-top:40px !important;
 
 }
 
+/* =========================
+MAPA ESPAÑA SOLO MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+.mapa-espana{
+width:100%;
+height:auto;
+display:block;
+margin:40px auto;
+max-width:420px;
+}
+
+}
+
