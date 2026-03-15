@@ -4244,3 +4244,57 @@ height:auto;
 display:block;
 margin:40px auto;
 }
+
+/* =========================
+FOOTER / CONTACTO FIX DESKTOP
+========================= */
+
+@media screen and (min-width:980px){
+
+/* centrar contenido contacto */
+
+section:last-of-type header{
+text-align:center;
+width:100%;
+max-width:600px;
+margin:auto;
+}
+
+section:last-of-type .content{
+max-width:600px;
+margin:auto;
+}
+
+/* centrar email */
+
+section:last-of-type footer{
+text-align:center;
+margin-top:40px;
+}
+
+/* legal links */
+
+.legal-bar{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.legal-bar a{
+text-decoration:none;
+border-bottom:1px dotted rgba(0,0,0,0.3);
+padding-bottom:3px;
+}
+
+/* copyright */
+
+.copyright{
+text-align:center;
+margin-top:30px;
+font-size:0.9rem;
+opacity:0.8;
+}
+
+}
