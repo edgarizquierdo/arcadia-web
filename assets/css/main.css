@@ -4245,4 +4245,30 @@ display:block;
 margin:40px auto;
 }
 
+.intro header{
+text-align:center;
+padding-top:40px;
+padding-right:0;
+}
+
+/* =========================
+FIX SECCION CONTACTO
+========================= */
+
+section:last-of-type header{
+width:100%;
+text-align:center;
+}
+
+section:last-of-type .content{
+width:100%;
+max-width:620px;
+margin:auto;
+}
+
+section:last-of-type footer{
+text-align:center;
+margin-top:40px;
+}
+
 
