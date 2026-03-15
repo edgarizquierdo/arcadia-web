@@ -1,123 +1,226 @@
-/* =================================
-RESET MOBILE LAYOUT
-================================= */
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 768px){
+  html, body {
+    overflow-x: hidden !important;
+  }
 
-/* quitar layout dividido */
+  #wrapper {
+    width: 100% !important;
+    padding: 0 !important;
+  }
 
-section{
-display:block !important;
-padding:40px 20px;
-position:relative;
-z-index:1;
-}
+  #wrapper:before {
+    display: none !important;
+  }
 
-/* eliminar elementos flotantes */
+  #wrapper section {
+    display: block !important;
+    grid-template-areas: none !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+    margin: 0 !important;
+  }
 
-.image.fill{
-position:relative !important;
-height:auto !important;
-z-index:1 !important;
-}
+  #wrapper section > header,
+  #wrapper section > .content,
+  #wrapper section > footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    text-align: left !important;
+    justify-self: stretch !important;
+  }
 
-/* imagen hero */
+  #wrapper > section > header:before,
+  #wrapper > section > header h1:before,
+  #wrapper > section > header h1:after,
+  #wrapper > section > header h2:before,
+  #wrapper > section > header h2:after,
+  #wrapper > section:last-of-type > header:after {
+    display: none !important;
+  }
 
-.image.fill img{
-width:100%;
-height:auto;
-display:block;
-}
+  #wrapper > section > .content > section {
+    left: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
 
-/* evitar que el hero tape cosas */
+  .copyright {
+    left: 0 !important;
+    width: 100% !important;
+    padding: 1.5rem !important;
+  }
 
-.intro{
-position:relative;
-z-index:1;
-}
+  /* HERO */
+  .intro {
+    display: block !important;
+  }
 
-/* logo */
+  .intro > header {
+    transform: none !important;
+    padding: 2rem 1.5rem 1.5rem 1.5rem !important;
+    text-align: center !important;
+  }
 
-.hero-logo{
-position:relative !important;
-transform:none !important;
-margin:20px auto;
-display:block;
-max-width:200px;
-z-index:2;
-}
+  .intro > header h1 {
+    margin: 0 0 1rem 0 !important;
+    font-size: 2.1rem !important;
+    line-height: 1.1 !important;
+    max-width: 100% !important;
+  }
 
-/* texto */
+  .intro > header p {
+    margin: 0 auto 1.25rem auto !important;
+    max-width: 100% !important;
+    font-size: 0.95rem !important;
+    line-height: 1.7 !important;
+  }
 
-.content{
-margin:0 !important;
-position:relative;
-z-index:2;
-}
+  .intro .actions {
+    margin-top: 1rem !important;
+    justify-content: center !important;
+  }
 
-/* botones clicables */
+  .intro .content {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+  }
 
-.button{
-display:block;
-width:80%;
-margin:30px auto;
-position:relative;
-z-index:5;
-}
+  .intro .content::after {
+    display: none !important;
+  }
 
-/* imágenes adaptativas */
+  .image.fill {
+    position: relative !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
 
-img{
-max-width:100%;
-height:auto;
-}
+  .image.fill img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: cover !important;
+  }
 
-/* logos */
+  .hero-logo {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    display: block !important;
+    width: 180px !important;
+    max-width: 70% !important;
+    margin: 1.25rem auto 0 auto !important;
+    z-index: 2 !important;
+  }
 
-.gallery{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:20px;
-}
+  .hero-login-btn {
+    position: relative !important;
+    z-index: 5 !important;
+    width: auto !important;
+    max-width: 100% !important;
+    margin-top: 0 !important;
+  }
 
-.gallery img{
-max-width:120px;
-margin:auto;
-}
+  .hero-cta-wrap {
+    margin-top: 1.25rem !important;
+    justify-content: center !important;
+  }
 
-/* mapas */
+  /* VÍDEO */
+  .video-container {
+    height: auto !important;
+    padding: 0 !important;
+    display: block !important;
+  }
 
-iframe{
-width:100%;
-height:300px;
-}
+  .video-container video {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 12px !important;
+  }
 
-}
+  /* IMÁGENES */
+  .image.main,
+  .big-image {
+    max-width: 100% !important;
+    margin-top: 1.5rem !important;
+  }
 
-/* =========================
-HERO LOGO POSITION
-========================= */
+  .image.main img,
+  .big-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-top: 0 !important;
+  }
 
-@media screen and (max-width:768px){
+  /* FEATURES / LOGOS */
+  .features article {
+    transform: none !important;
+    margin: 1.25rem 0 !important;
+  }
 
-.hero-logo{
-position:relative !important;
-display:block;
-margin:40px 0 30px 0;
-max-width:180px;
-}
+  .logos-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
+  }
 
-/* asegurar alineación izquierda */
+  .logo-item {
+    height: 72px !important;
+  }
 
-.intro header{
-text-align:left;
-}
+  .logo-item img {
+    max-width: 100% !important;
+    max-height: 46px !important;
+  }
 
-/* título */
+  /* LEGAL */
+  .legal-bar {
+    gap: 1rem !important;
+    padding: 1.5rem !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
 
-.intro h1{
-margin-top:20px;
-line-height:1.2;
-}
+  .legal-bar a {
+    text-align: center !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+  }
 
+  /* FORM */
+  form > .fields {
+    width: 100% !important;
+    margin: 0 0 1.5rem 0 !important;
+  }
+
+  form > .fields > .field,
+  form > .fields > .field.half,
+  form > .fields > .field.third,
+  form > .fields > .field.quarter {
+    width: 100% !important;
+    padding: 1rem 0 0 0 !important;
+  }
+
+  /* BOTONES */
+  ul.actions {
+    margin-left: 0 !important;
+  }
+
+  ul.actions li {
+    padding-left: 0 !important;
+  }
+
+  ul.actions .button,
+  ul.actions input[type="submit"] {
+    width: 100% !important;
+    text-align: center !important;
+  }
 }
