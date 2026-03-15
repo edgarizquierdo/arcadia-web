@@ -284,3 +284,28 @@ text-align:center;
 }
 
 }
+
+/* =========================
+MAPA ESPAÑA DENTRO DEL BLOQUE VERDE
+SOLO MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+section.accent .content{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+section.accent img[src*="map"],
+section.accent img[src*="Mapa"]{
+
+width:100%;
+max-width:420px;
+
+margin:40px auto 20px auto;
+
+}
+
+}
