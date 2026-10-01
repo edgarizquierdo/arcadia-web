@@ -182,3 +182,23 @@
 .partner-disclaimer{margin:18px 0 0;color:#8a9499;font-size:11px;line-height:1.5;max-width:820px}
 @media(max-width:1000px){.partner-logo-grid{grid-template-columns:repeat(2,1fr)}.partner-ecosystem-head{grid-template-columns:1fr;gap:14px;align-items:start}}
 @media(max-width:620px){.partner-logo-grid{grid-template-columns:1fr 1fr;gap:10px}.partner-logo-card{min-height:112px;padding:16px;border-radius:18px}.partner-logo-card img{max-height:62px}.partner-logo-card-dark img{max-height:56px}.partner-disclaimer{font-size:10px}}
+
+
+/* Company timeline refinement */
+.company-split{align-items:start}
+.company-timeline-section .intro{max-width:780px}
+.timeline-list{gap:0;margin-top:34px}
+.timeline-list div{padding:18px 0;align-items:flex-start}
+.timeline-list b{font-size:15px;min-width:64px}
+.timeline-list span{font-size:14px;line-height:1.45;text-align:right;max-width:540px}
+.company-visual{min-height:640px;background:linear-gradient(145deg,#09151d,#0f2430);box-shadow:0 28px 70px rgba(5,16,22,.14)}
+.company-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 74% 24%,rgba(143,176,108,.24),transparent 18%),radial-gradient(circle at 24% 75%,rgba(110,185,207,.18),transparent 18%),linear-gradient(to bottom,rgba(255,255,255,.04),transparent 25%);pointer-events:none}
+.company-visual-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.98}
+.visual-chip{position:absolute;z-index:2;border:1px solid rgba(255,255,255,.14);background:rgba(10,20,26,.55);backdrop-filter:blur(10px);color:#fff;border-radius:18px;padding:16px 18px;max-width:260px;box-shadow:0 12px 30px rgba(0,0,0,.14)}
+.visual-chip small{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#b8c7cc;margin-bottom:6px}
+.visual-chip b{display:block;font-size:24px;line-height:1.18;letter-spacing:-.03em}
+.vc1{left:7%;top:8%;max-width:290px}
+.vc2{right:7%;top:16%;max-width:250px}
+.vc3{left:13%;bottom:9%;max-width:420px}
+@media(max-width:900px){.timeline-list span{text-align:left;max-width:none}.company-visual{min-height:520px}.vc1,.vc2,.vc3{max-width:72%}.vc2{right:6%;top:14%}.vc3{left:8%;bottom:8%}}
+@media(max-width:620px){.company-visual{min-height:420px}.visual-chip{padding:12px 14px;border-radius:14px}.visual-chip b{font-size:18px}.vc1{left:6%;top:6%;max-width:76%}.vc2{top:auto;right:6%;bottom:28%}.vc3{left:6%;bottom:6%;max-width:82%}}
