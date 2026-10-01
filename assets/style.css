@@ -252,3 +252,46 @@
 @media(max-width:1100px){.company-visual-minimal .company-core-shape{width:650px;height:238px;top:60%}.company-visual-minimal .d1,.company-visual-minimal .d2,.company-visual-minimal .d3,.company-visual-minimal .d4,.company-visual-minimal .d5{width:66px;height:66px}.company-visual-minimal .d1{left:250px;top:84px}.company-visual-minimal .d2{left:328px;top:68px}.company-visual-minimal .d3{left:416px;top:84px}.company-visual-minimal .d4{left:296px;top:136px}.company-visual-minimal .d5{left:376px;top:136px}}
 @media(max-width:900px){.company-visual-minimal{min-height:540px}.company-visual-minimal .company-core-shape{width:500px;height:192px;top:60%}.company-visual-minimal .d1,.company-visual-minimal .d2,.company-visual-minimal .d3,.company-visual-minimal .d4,.company-visual-minimal .d5{width:52px;height:52px}.company-visual-minimal .d1{left:186px;top:68px}.company-visual-minimal .d2{left:246px;top:56px}.company-visual-minimal .d3{left:314px;top:68px}.company-visual-minimal .d4{left:224px;top:107px}.company-visual-minimal .d5{left:286px;top:107px}.company-visual-minimal .company-evolution-line{flex-wrap:wrap;gap:8px 10px}.company-visual-minimal .company-evolution-line i{min-width:22px;flex:0 0 22px}}
 @media(max-width:620px){.company-visual-minimal{min-height:430px}.company-visual-minimal .company-visual-kicker{left:24px;top:22px;font-size:10px}.company-visual-minimal .company-core-shape{width:360px;height:152px;top:62%}.company-visual-minimal .d1,.company-visual-minimal .d2,.company-visual-minimal .d3,.company-visual-minimal .d4,.company-visual-minimal .d5{width:40px;height:40px}.company-visual-minimal .d1{left:130px;top:58px}.company-visual-minimal .d2{left:176px;top:48px}.company-visual-minimal .d3{left:228px;top:58px}.company-visual-minimal .d4{left:158px;top:90px}.company-visual-minimal .d5{left:208px;top:90px}.company-visual-minimal .company-evolution-line{left:24px;right:24px;bottom:18px;font-size:9px;gap:6px 8px}.company-visual-minimal .company-evolution-line i{display:none}}
+
+
+/* Precision device panel — themed dark background */
+.agri-showcase .devicepanel{
+  position:relative;
+  overflow:hidden;
+  border:1px solid rgba(12,23,32,.10);
+  border-radius:32px;
+  background:linear-gradient(135deg,#07131b 0%,#0b1a23 54%,#0d2019 100%);
+  box-shadow:var(--shadow);
+  padding:24px;
+  min-height:100%;
+}
+.agri-showcase .devicepanel::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);
+  background-size:58px 58px;
+  opacity:.38;
+}
+.agri-showcase .devicepanel::after{
+  content:"";
+  position:absolute;
+  inset:-10%;
+  background:
+    radial-gradient(circle at 68% 28%, rgba(197,223,133,.30), transparent 19%),
+    radial-gradient(circle at 73% 74%, rgba(110,185,207,.22), transparent 22%),
+    radial-gradient(circle at 56% 86%, rgba(229,189,107,.16), transparent 16%);
+  filter:blur(8px);
+}
+.agri-showcase .devicepanel img{
+  position:relative;
+  z-index:2;
+  border-radius:0;
+  max-width:92%;
+  margin:32px auto 18px;
+  filter:drop-shadow(0 22px 36px rgba(0,0,0,.28));
+}
+@media(max-width:900px){
+  .agri-showcase .devicepanel{padding:18px}
+  .agri-showcase .devicepanel img{max-width:96%;margin:18px auto 10px}
+}
