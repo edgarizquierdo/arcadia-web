@@ -1,0 +1,8 @@
+# PRODUCCIÓN APACHE: renombrar a .htaccess y ajustar AuthUserFile
+AuthType Basic
+AuthName "Atlas BioScan Private"
+AuthUserFile /RUTA/FUERA/DEL/WEBROOT/.htpasswd-atlas
+Require valid-user
+
+# Evitar indexación
+Header set X-Robots-Tag "noindex, nofollow, noarchive"

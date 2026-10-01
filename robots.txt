@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /atlas/
+Sitemap: https://arcadiaclimatic.com/sitemap.xml
