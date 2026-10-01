@@ -202,3 +202,15 @@
 .vc3{left:13%;bottom:9%;max-width:420px}
 @media(max-width:900px){.timeline-list span{text-align:left;max-width:none}.company-visual{min-height:520px}.vc1,.vc2,.vc3{max-width:72%}.vc2{right:6%;top:14%}.vc3{left:8%;bottom:8%}}
 @media(max-width:620px){.company-visual{min-height:420px}.visual-chip{padding:12px 14px;border-radius:14px}.visual-chip b{font-size:18px}.vc1{left:6%;top:6%;max-width:76%}.vc2{top:auto;right:6%;bottom:28%}.vc3{left:6%;bottom:6%;max-width:82%}}
+
+
+/* Company timeline visual V14 — cleaner, no overlapping cards */
+.company-visual-clean{min-height:640px;background:linear-gradient(145deg,#09151d 0%,#0e202a 58%,#132c31 100%);box-shadow:0 28px 70px rgba(5,16,22,.14);isolation:isolate}
+.company-visual-clean:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 74% 24%,rgba(143,176,108,.22),transparent 22%),radial-gradient(circle at 25% 82%,rgba(110,185,207,.16),transparent 22%);z-index:-1}
+.company-visual-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.55) 62%,transparent 100%)}
+.company-visual-kicker{position:absolute;left:34px;top:32px;color:#d7e2e6;font-size:12px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;z-index:2}
+.company-platform-cutout{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);width:86%;max-width:650px;height:auto;object-fit:contain;filter:drop-shadow(0 30px 42px rgba(0,0,0,.33));z-index:2}
+.company-evolution-line{position:absolute;left:34px;right:34px;bottom:30px;display:flex;align-items:center;gap:12px;color:#eef4f4;font-size:11px;font-weight:750;letter-spacing:.08em;text-transform:uppercase;z-index:3}
+.company-evolution-line i{height:1px;flex:1;background:linear-gradient(90deg,rgba(197,223,133,.7),rgba(110,185,207,.35))}
+@media(max-width:900px){.company-visual-clean{min-height:520px}.company-platform-cutout{width:82%;max-width:560px}.company-evolution-line{flex-wrap:wrap;gap:8px 10px}.company-evolution-line i{min-width:26px;flex:0 0 26px}}
+@media(max-width:620px){.company-visual-clean{min-height:410px}.company-visual-kicker{left:22px;top:22px;font-size:10px}.company-platform-cutout{width:92%;top:50%}.company-evolution-line{left:22px;right:22px;bottom:20px;font-size:9px}.company-evolution-line i{display:none}}
