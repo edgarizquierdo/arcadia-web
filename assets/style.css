@@ -12,3 +12,15 @@
 .loginlogo{width:220px;height:50px;object-fit:contain;object-position:left center}
 @media(max-width:1100px){.logo-brand img{width:190px;height:44px}.links{gap:18px;font-size:13px}}
 @media(max-width:900px){.logo-brand img{width:175px;height:42px}.footer .logo-brand img{width:165px;height:38px}.atlas-logo-brand img{width:150px;height:34px}}
+
+
+/* Institutional ecosystem */
+.institutional-section{padding-top:20px}.institutional-band{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:42px 0;display:grid;grid-template-columns:.9fr 1.1fr;gap:54px;align-items:center}.institutional-copy h2{font-size:34px;line-height:1.05;letter-spacing:-.035em;margin:12px 0 14px}.institutional-copy p{color:var(--muted);max-width:620px}.institutional-logos{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px 28px;box-shadow:0 16px 44px rgba(5,16,22,.06)}.institutional-logos img{display:block;width:100%;height:auto;object-fit:contain}
+
+/* Clinic CRM vertical */
+.clinic-feature{grid-column:span 3}.clinic-section{padding-top:72px}.clinic-split{align-items:stretch}.clinic-visual{border-radius:34px;background:linear-gradient(145deg,#0a1720,#102a3a);padding:34px;display:flex;align-items:center;min-height:520px;box-shadow:var(--shadow)}.clinic-ui{width:100%;border:1px solid rgba(255,255,255,.12);border-radius:26px;background:rgba(255,255,255,.055);padding:30px;color:#fff;backdrop-filter:blur(10px)}.clinic-tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.14em;color:#d9a764;margin-bottom:18px}.clinic-ui h3{font-size:42px;line-height:1;letter-spacing:-.04em;margin:0 0 14px}.clinic-ui p{color:#aebbc2;max-width:480px}.clinic-mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:26px}.clinic-mini-grid div{border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px;color:#d9e2e6;font-size:14px;background:rgba(255,255,255,.035)}
+
+/* Project spotlight */
+.capilart-case{border-color:rgba(110,185,207,.35);background:linear-gradient(180deg,#fff,rgba(110,185,207,.06))}.project-spotlight-section{padding-top:20px}.project-spotlight{background:#0c1720;color:#fff;border-radius:34px;padding:48px;display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;box-shadow:var(--shadow)}.project-spotlight .kicker{color:#c5df85}.project-spotlight h2{font-size:clamp(44px,5vw,72px);letter-spacing:-.045em;line-height:.98;margin:10px 0 20px}.project-spotlight .intro{color:#b7c2c8}.project-points{display:grid;grid-template-columns:1fr 1fr;gap:12px}.project-points div{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.045);border-radius:18px;padding:18px}.project-points b{display:block;font-size:15px;margin-bottom:6px}.project-points span{display:block;font-size:13px;color:#aab7bd}
+@media(max-width:900px){.institutional-band,.project-spotlight{grid-template-columns:1fr}.clinic-feature{grid-column:span 2}.clinic-visual{min-height:400px}}
+@media(max-width:620px){.clinic-feature{grid-column:span 1}.project-points,.clinic-mini-grid{grid-template-columns:1fr}.project-spotlight{padding:30px}.institutional-logos{padding:14px}}
