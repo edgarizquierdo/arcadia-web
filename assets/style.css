@@ -40,3 +40,43 @@
 @media(max-width:1100px){.atlas-hero-wrap,.atlas-strip-grid{grid-template-columns:1fr}.atlas-risk-grid{grid-template-columns:1fr 1fr}.atlas-brand-duo{gap:12px}.atlas-bioscan-header-logo img{width:190px;height:38px}.atlas-arcadia img{width:155px;height:34px}}
 @media(max-width:900px){.atlaspanel-grid,.atlas-process-panel,.atlas-cases-grid,.atlas-featuregrid{grid-template-columns:1fr 1fr}.atlasnav .links.open{background:#081218;border-bottom-color:rgba(255,255,255,.1)}.atlas-brand-duo{max-width:82%}.atlas-brand-sep{display:none}.atlas-bioscan-header-logo img{width:160px;height:34px}.atlas-arcadia img{width:138px;height:31px}}
 @media(max-width:620px){.atlaspanel-grid,.atlas-risk-grid,.atlas-process-panel,.atlas-cases-grid,.atlas-featuregrid{grid-template-columns:1fr}.atlashero h1{font-size:62px}.atlaspanel-card h3{font-size:28px}.atlashero p{font-size:18px}}
+
+
+/* Atlas BioScan header readability fix */
+.atlasbioscan-page .atlasnav{
+  background:rgba(251,250,246,.96);
+  border-bottom:1px solid rgba(12,23,32,.10);
+  backdrop-filter:blur(18px);
+}
+.atlasbioscan-page .atlasnav .links a{color:#0c1720;opacity:.78}
+.atlasbioscan-page .atlasnav .links a:hover{opacity:1}
+.atlasbioscan-page .atlasnavin{height:88px}
+.atlasbioscan-page .atlas-brand-duo{gap:20px}
+.atlasbioscan-page .atlas-brand-sep{height:42px;background:rgba(12,23,32,.14)}
+.atlasbioscan-page .atlas-arcadia img{
+  width:185px;
+  height:46px;
+  object-fit:contain;
+  object-position:left center;
+}
+.atlasbioscan-page .atlas-bioscan-header-logo img{
+  width:215px;
+  height:48px;
+  object-fit:contain;
+  object-position:left center;
+}
+.atlasbioscan-page .hamb{color:#0c1720}
+@media(max-width:1100px){
+  .atlasbioscan-page .atlas-arcadia img{width:165px;height:42px}
+  .atlasbioscan-page .atlas-bioscan-header-logo img{width:190px;height:44px}
+}
+@media(max-width:900px){
+  .atlasbioscan-page .atlasnav .links.open{background:#fbfaf6;border-bottom-color:rgba(12,23,32,.10)}
+  .atlasbioscan-page .atlas-brand-duo{gap:12px}
+  .atlasbioscan-page .atlas-arcadia img{width:145px;height:38px}
+  .atlasbioscan-page .atlas-bioscan-header-logo img{width:165px;height:38px}
+}
+@media(max-width:620px){
+  .atlasbioscan-page .atlas-arcadia img{width:118px;height:34px}
+  .atlasbioscan-page .atlas-bioscan-header-logo img{width:138px;height:34px}
+}
