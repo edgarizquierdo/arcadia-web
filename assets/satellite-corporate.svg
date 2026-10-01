@@ -1,0 +1,87 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08141D"/>
+      <stop offset="1" stop-color="#132734"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 250) rotate(90) scale(220 220)">
+      <stop stop-color="#8FB06C" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#8FB06C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 520) rotate(90) scale(260 260)">
+      <stop stop-color="#6EB9CF" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#6EB9CF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="earth" x1="200" y1="610" x2="970" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C3240"/>
+      <stop offset="1" stop-color="#2E5B65"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F2330"/>
+      <stop offset="1" stop-color="#102533"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="42" fill="url(#bg)"/>
+  <rect width="1200" height="900" rx="42" fill="url(#glow1)"/>
+  <rect width="1200" height="900" rx="42" fill="url(#glow2)"/>
+
+  <g opacity="0.22">
+    <path d="M0 120H1200" stroke="white"/>
+    <path d="M0 200H1200" stroke="white"/>
+    <path d="M0 280H1200" stroke="white"/>
+    <path d="M0 360H1200" stroke="white"/>
+    <path d="M0 440H1200" stroke="white"/>
+    <path d="M0 520H1200" stroke="white"/>
+    <path d="M0 600H1200" stroke="white"/>
+    <path d="M0 680H1200" stroke="white"/>
+    <path d="M120 0V900" stroke="white"/>
+    <path d="M240 0V900" stroke="white"/>
+    <path d="M360 0V900" stroke="white"/>
+    <path d="M480 0V900" stroke="white"/>
+    <path d="M600 0V900" stroke="white"/>
+    <path d="M720 0V900" stroke="white"/>
+    <path d="M840 0V900" stroke="white"/>
+    <path d="M960 0V900" stroke="white"/>
+    <path d="M1080 0V900" stroke="white"/>
+  </g>
+
+  <g>
+    <path d="M120 720C300 600 510 540 790 560C940 572 1055 620 1140 700" stroke="rgba(255,255,255,0.35)" stroke-width="3"/>
+    <path d="M150 770C330 650 540 590 810 610C950 620 1050 660 1120 720" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+    <ellipse cx="780" cy="610" rx="420" ry="160" transform="rotate(-9 780 610)" fill="url(#earth)"/>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M725 548L782 517L837 553L780 583L725 548Z" fill="#C5DF85" fill-opacity="0.95"/>
+    <path d="M674 593L727 564L781 596L728 626L674 593Z" fill="#8FB06C"/>
+    <path d="M785 595L840 565L894 599L839 629L785 595Z" fill="#E5BD6B"/>
+    <path d="M734 643L789 611L845 645L791 675L734 643Z" fill="#6EB9CF"/>
+    <path d="M860 546L913 516L969 548L916 578L860 546Z" fill="#B3D6A0"/>
+    <path d="M622 546L678 516L731 547L676 578L622 546Z" fill="#7FA87A"/>
+  </g>
+
+  <g>
+    <rect x="108" y="98" width="356" height="214" rx="28" fill="url(#panel)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="142" y="145" fill="#DCE5E8" font-size="22" font-family="Arial, Helvetica, sans-serif" letter-spacing="2">ARCADIA REPORTS</text>
+    <text x="142" y="187" fill="#FFFFFF" font-size="52" font-weight="700" font-family="Arial, Helvetica, sans-serif">Informes</text>
+    <text x="142" y="240" fill="#A5B5BC" font-size="25" font-family="Arial, Helvetica, sans-serif">semanales por parcela</text>
+    <circle cx="401" cy="146" r="9" fill="#C5DF85"/>
+    <circle cx="427" cy="146" r="9" fill="#6EB9CF"/>
+    <circle cx="453" cy="146" r="9" fill="#E5BD6B"/>
+    <rect x="143" y="267" width="139" height="3" rx="1.5" fill="#6EB9CF" fill-opacity="0.8"/>
+    <rect x="143" y="283" width="190" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.18"/>
+  </g>
+
+  <g transform="translate(780 140)">
+    <path d="M0 94L58 60" stroke="#E5BD6B" stroke-width="4"/>
+    <path d="M0 94L-58 60" stroke="#E5BD6B" stroke-width="4"/>
+    <rect x="-28" y="76" width="56" height="36" rx="8" fill="#F1F6F7"/>
+    <rect x="-18" y="42" width="36" height="34" rx="8" fill="#D8E4E7"/>
+    <path d="M18 90C120 90 188 140 220 200" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="222" cy="202" r="8" fill="#FFFFFF"/>
+    <rect x="-94" y="49" width="52" height="22" rx="4" fill="#6EB9CF"/>
+    <rect x="42" y="49" width="52" height="22" rx="4" fill="#6EB9CF"/>
+    <path d="M0 112V145" stroke="#C5DF85" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
