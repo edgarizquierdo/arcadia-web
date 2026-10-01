@@ -295,3 +295,34 @@
   .agri-showcase .devicepanel{padding:18px}
   .agri-showcase .devicepanel img{max-width:96%;margin:18px auto 10px}
 }
+
+
+/* Precision device panel — centered and more compact */
+.agri-showcase .agri-showcase-grid{
+  align-items:center;
+}
+.agri-showcase .devicepanel{
+  width:min(100%, 760px);
+  aspect-ratio: 4 / 3;
+  min-height:0;
+  justify-self:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:26px;
+}
+.agri-showcase .devicepanel img{
+  max-width:78%;
+  margin:0 auto;
+}
+@media(max-width:900px){
+  .agri-showcase .devicepanel{
+    width:100%;
+    aspect-ratio:auto;
+    min-height:340px;
+    padding:20px;
+  }
+  .agri-showcase .devicepanel img{
+    max-width:92%;
+  }
+}
