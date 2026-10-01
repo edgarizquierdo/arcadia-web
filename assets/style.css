@@ -431,3 +431,21 @@
   .devicepanel-caption{right:22px;bottom:18px;font-size:8px}
   .agri-showcase .devicepanel-premium img{max-width:94%;max-height:66%}
 }
+
+
+/* Landing technology section V21 — cross-sector positioning */
+.tech-flow-visual{min-height:520px;background:linear-gradient(145deg,#09161d 0%,#0d2025 58%,#10251e 100%);box-shadow:0 26px 64px rgba(5,16,22,.12);isolation:isolate}
+.tech-flow-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);background-size:64px 64px;opacity:.62;mask-image:linear-gradient(to bottom,#000,rgba(0,0,0,.7) 68%,transparent)}
+.tech-flow-glow{position:absolute;inset:0;background:radial-gradient(circle at 58% 34%,rgba(153,184,111,.24),transparent 20%),radial-gradient(circle at 35% 72%,rgba(93,170,190,.16),transparent 22%),radial-gradient(circle at 77% 72%,rgba(229,189,107,.11),transparent 18%)}
+.tech-flow-line{position:absolute;left:17%;right:15%;top:50%;height:1px;background:linear-gradient(90deg,rgba(110,185,207,.18),rgba(197,223,133,.7),rgba(229,189,107,.55),rgba(110,185,207,.18));transform:rotate(-11deg);transform-origin:center;z-index:1}
+.tech-node{position:absolute;z-index:3;border:1px solid rgba(255,255,255,.13);background:rgba(9,20,27,.66);backdrop-filter:blur(10px);border-radius:18px;padding:18px 20px;color:#fff;box-shadow:0 14px 32px rgba(0,0,0,.13)}
+.tech-node small{display:block;font-size:10px;font-weight:800;letter-spacing:.14em;color:#c4d0d4;margin-bottom:7px}
+.tech-node b{display:block;font-size:16px;line-height:1.3;letter-spacing:-.02em}
+.tech-node-1{left:8%;top:10%;width:42%}
+.tech-node-2{right:8%;top:27%;width:39%}
+.tech-node-3{left:12%;bottom:24%;width:44%}
+.tech-node-4{right:9%;bottom:8%;width:43%}
+.tech-dot{position:absolute;z-index:2;width:9px;height:9px;border-radius:50%;background:#eef4f5;box-shadow:0 0 0 7px rgba(255,255,255,.06)}
+.tech-dot-1{left:31%;top:43%}.tech-dot-2{left:55%;top:51%}.tech-dot-3{right:24%;bottom:31%}
+@media(max-width:900px){.tech-flow-visual{min-height:500px}.tech-node-1{width:48%}.tech-node-2{width:44%}.tech-node-3{width:50%}.tech-node-4{width:48%}}
+@media(max-width:620px){.tech-flow-visual{min-height:470px}.tech-node{padding:14px 15px;border-radius:15px}.tech-node b{font-size:13px}.tech-node small{font-size:9px}.tech-node-1{left:6%;top:8%;width:66%}.tech-node-2{right:6%;top:29%;width:62%}.tech-node-3{left:7%;bottom:24%;width:67%}.tech-node-4{right:6%;bottom:7%;width:64%}.tech-dot{display:none}}
