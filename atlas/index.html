@@ -1,298 +1,282 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
-  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
-  <title>Atlas BioScan · Arcadia Global Analytics</title>
-  <link rel="icon" href="../assets/favicon-32.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="../assets/style.css">
-  <script>if(sessionStorage.getItem('atlas_access')!=='1')location.replace('login.html')</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="noindex,nofollow,noarchive,nosnippet,noimageindex" name="robots"/>
+<meta content="noindex,nofollow,noarchive,nosnippet,noimageindex" name="googlebot"/>
+<title>Atlas BioScan · Arcadia Global Analytics</title>
+<link href="../assets/favicon-32.png" rel="icon" sizes="32x32"/>
+<link href="../assets/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="../assets/style.css" rel="stylesheet"/>
+<script>if(sessionStorage.getItem('atlas_access')!=='1')location.replace('login.html')</script>
 </head>
 <body class="atlasbody atlasbioscan-page atlas-v10">
-  <header class="nav atlasnav atlasnav-light">
-    <div class="wrap navin atlasnavin">
-      <div class="atlas-brand-duo">
-        <a class="brand logo-brand atlas-arcadia" href="../index.html"><img src="../assets/arcadia-logo-selected.png" alt="Arcadia Global Analytics"></a>
-        <span class="atlas-brand-sep"></span>
-        <a class="atlas-bioscan-header-logo" href="#top"><img src="../assets/atlas-bioscan-logo.png" alt="Atlas BioScan"></a>
-      </div>
-      <nav class="links">
-        <a href="#vision">Visión</a>
-        <a href="#inteligencia">Inteligencia</a>
-        <a href="#capas">Capas</a>
-        <a href="#prevencion">Prevención</a>
-        <a href="#ejecucion">Ejecución</a>
-        <a href="#salida">Resultados</a>
-        <a href="javascript:sessionStorage.removeItem('atlas_access');location.href='login.html'">Salir</a>
-      </nav>
-      <button class="hamb" aria-label="Abrir menú">☰</button>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="atlashero atlashero-v10">
-      <div class="atlasgrid atlasgrid-forest"></div>
-      <div class="wrap atlas-hero-wrap atlas-hero-wrap-v10">
-        <div class="atlas-hero-copy">
-          <div class="kicker atlaskicker">Inteligencia territorial · prevención · ejecución</div>
-          <h1>ATLAS <span>BIOSCAN</span></h1>
-          <p class="atlas-hero-lead">Una plataforma para transformar grandes volúmenes de información forestal, ambiental y geoespacial en una lectura operativa del riesgo de incendio, la vulnerabilidad del territorio y las prioridades de gestión y actuación.</p>
-          <div class="atlas-proof-row">
-            <div><b>Observa</b><span>vegetación, humedad, relieve y evolución</span></div>
-            <div><b>Contextualiza</b><span>entorno protegido, alertas e infraestructuras</span></div>
-            <div><b>Prioriza</b><span>criticidad y necesidad de intervención</span></div>
-            <div><b>Ejecuta</b><span>actuaciones, estados y seguimiento</span></div>
-          </div>
-          <div class="actions">
-            <a class="btn atlasbtn" href="#vision">Cómo funciona ↓</a>
-            <a class="btn atlasbtn ghost" href="#salida">Qué entrega</a>
-          </div>
-        </div>
-        <div class="atlas-ui-mock">
-          <div class="atlas-ui-top"><span>ATLAS BIOSCAN</span><small>lectura territorial</small></div>
-          <div class="atlas-ui-body">
-            <div class="atlas-ui-side">
-              <i></i><i></i><i></i><i></i><i></i><i></i>
-            </div>
-            <div class="atlas-ui-map">
-              <div class="parcel p-a"></div><div class="parcel p-b"></div><div class="parcel p-c"></div>
-              <div class="riskdot r1"></div><div class="riskdot r2"></div><div class="riskdot r3"></div>
-              <div class="atlas-map-label">PRIORIDAD TERRITORIAL</div>
-            </div>
-          </div>
-          <div class="atlas-ui-bottom">
-            <span>Vigor</span><span>Humedad</span><span>Relieve</span><span>Protección</span><span>Riesgo</span><span>Operaciones</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section atlas-intro-strip" id="vision">
-      <div class="wrap atlas-strip-grid">
-        <div>
-          <div class="kicker">Qué resuelve</div>
-          <h2 class="title">De un territorio complejo a una decisión comprensible.</h2>
-        </div>
-        <div>
-          <p class="intro">Atlas BioScan integra información que normalmente está dispersa entre mapas, fuentes oficiales, series temporales y análisis técnicos. La plataforma la reúne, la interpreta y la convierte en una visión única para responder tres preguntas: <strong>qué está ocurriendo, dónde conviene actuar y cómo hacer seguimiento.</strong></p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="inteligencia">
-      <div class="wrap">
-        <div class="kicker">01 · Inteligencia territorial</div>
-        <h2 class="title">Más que visualizar datos: compararlos, interpretarlos y priorizarlos.</h2>
-        <p class="intro">La plataforma trabaja con indicadores de lectura territorial y ambiental que convierten señales complejas en una lectura clara, visual y accionable para perfiles técnicos y operativos.</p>
-        <div class="atlas-metric-grid">
-          <div class="atlas-metric-card"><span class="atlas-code">IVE</span><h3>Estado de la vegetación</h3><p>Lectura del comportamiento y la condición vegetal para detectar diferencias, tendencias y señales relevantes.</p></div>
-          <div class="atlas-metric-card"><span class="atlas-code">ICA</span><h3>Condición integrada</h3><p>Una visión sintética que ayuda a contextualizar el estado territorial y comparar zonas con criterios homogéneos.</p></div>
-          <div class="atlas-metric-card"><span class="atlas-code">IPI</span><h3>Prioridad de intervención</h3><p>Una lectura orientada a ordenar áreas de atención y facilitar dónde concentrar primero recursos y revisión técnica.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section atlas-product-showcase" aria-labelledby="atlas-intelligence-title">
-      <div class="wrap">
-        <div class="atlas-showcase-head">
-          <div>
-            <div class="kicker">Atlas Intelligence · visión operativa</div>
-            <h2 class="title" id="atlas-intelligence-title">De una señal territorial a una prioridad clara.</h2>
-          </div>
-          <p class="intro">La capa de inteligencia de Atlas BioScan transforma la observación continua en una lectura accionable: identifica qué parcelas requieren atención, explica el contexto de cada alerta y conserva la trazabilidad de la decisión operativa.</p>
-        </div>
-
-        <div class="atlas-screen-feature atlas-screen-feature-main">
-          <div class="atlas-screen-copy">
-            <span class="atlas-screen-eyebrow">Panel de atención inmediata</span>
-            <h3>Priorizar primero lo que realmente necesita intervención.</h3>
-            <p>Alertas, variaciones de vigor y humedad, calidad de observación y estado operativo se reúnen en una misma vista para reducir el tiempo de análisis y acelerar la respuesta sobre el terreno.</p>
-            <div class="atlas-screen-points">
-              <div><b>Detección automática</b><span>Incidencias críticas y parcelas en vigilancia.</span></div>
-              <div><b>Contexto en una vista</b><span>Indicadores clave junto a la situación de cada parcela.</span></div>
-              <div><b>Acción directa</b><span>Evolución, registro de actuaciones y acceso al mapa.</span></div>
-            </div>
-          </div>
-          <figure class="atlas-product-window atlas-crop-top">
-            <div class="atlas-window-bar"><i></i><i></i><i></i><span>Atlas Intelligence · resumen operativo</span></div>
-            <img src="../assets/atlas-attention.webp" alt="Panel Atlas Intelligence con alertas y priorización de parcelas" loading="lazy">
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt atlas-layers-section" id="capas">
-      <div class="wrap">
-        <div class="kicker">02 · Lectura multicapas</div>
-        <h2 class="title">El territorio no se entiende con una sola capa.</h2>
-        <p class="intro">Atlas BioScan combina observación de la vegetación, agua, relieve, protección ambiental, población e infraestructuras para aportar contexto a cada decisión.</p>
-        <div class="atlas-capability-grid">
-          <div class="atlas-capability"><b>Vigor y heterogeneidad</b><span>Lectura espacial del comportamiento vegetal y sus diferencias internas.</span></div>
-          <div class="atlas-capability"><b>Humedad y estrés</b><span>Seguimiento de variaciones relacionadas con disponibilidad y comportamiento hídrico.</span></div>
-          <div class="atlas-capability"><b>Relieve y pendiente</b><span>Contexto topográfico para entender condicionantes de accesibilidad, continuidad y exposición.</span></div>
-          <div class="atlas-capability"><b>Espacios protegidos</b><span>Contextualización de parcelas y actuaciones respecto a ámbitos ambientales sensibles.</span></div>
-          <div class="atlas-capability"><b>Población e interfaz urbano-forestal</b><span>Relación entre territorio, presencia humana y zonas que requieren especial atención.</span></div>
-          <div class="atlas-capability"><b>Infraestructura eléctrica</b><span>Lectura de líneas, nodos y proximidades relevantes dentro del análisis territorial.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section atlas-darkband" id="prevencion">
-      <div class="wrap">
-        <div class="kicker atlaskicker">03 · Prevención y contexto operativo</div>
-        <h2 class="title atlas-dark-title">Una capa de prevención que se actualiza con el territorio.</h2>
-        <p class="intro atlas-dark-intro">Atlas BioScan conecta la lectura estructural con información operativa para situar cada zona dentro de un contexto real de prevención y alerta.</p>
-        <div class="atlas-risk-grid atlas-risk-grid-v10">
-          <div class="atlas-risk-card"><b>Incendios e histórico</b><span>Memoria territorial y seguimiento de eventos para analizar impacto, evolución y recuperación.</span></div>
-          <div class="atlas-risk-card"><b>Alertas y situación oficial</b><span>Información de contexto que ayuda a interpretar el escenario preventivo del momento.</span></div>
-          <div class="atlas-risk-card"><b>Franjas y corredores</b><span>Lectura de áreas preventivas vinculadas a caminos, núcleos e infraestructuras críticas.</span></div>
-          <div class="atlas-risk-card"><b>Prioridades de actuación</b><span>Ordenación visual de áreas que requieren revisión, planificación o intervención preferente.</span></div>
-        </div>
-        <div class="atlas-context-chips"><span>Pla Alfa</span><span>avisos meteorológicos</span><span>contexto Bombers</span><span>incendios activos</span><span>histórico</span><span>recuperación postincendio</span></div>
-      </div>
-    </section>
-
-    <section class="section atlas-analytics-band" aria-labelledby="atlas-evidence-title">
-      <div class="wrap">
-        <div class="atlas-showcase-head atlas-showcase-head-dark">
-          <div>
-            <div class="kicker atlaskicker">Evidencia analítica</div>
-            <h2 class="title atlas-dark-title" id="atlas-evidence-title">La evolución cuenta la historia completa.</h2>
-          </div>
-          <p class="intro atlas-dark-intro">Atlas no se limita a mostrar el estado actual. Las series históricas y la condición espacial permiten distinguir una oscilación puntual de un deterioro persistente y comprobar qué sucede después de una actuación o un incendio.</p>
-        </div>
-
-        <div class="atlas-evidence-grid">
-          <article class="atlas-evidence-card">
-            <div class="atlas-evidence-copy">
-              <span>Seguimiento postincendio</span>
-              <h3>Medir impacto, evolución y recuperación.</h3>
-              <p>La serie histórica de NDVI y NDWI contextualiza el evento, mientras el seguimiento postincendio registra superficie afectada, recuperación espectral y actuaciones realizadas.</p>
-            </div>
-            <figure class="atlas-product-window atlas-crop-postfire">
-              <div class="atlas-window-bar"><i></i><i></i><i></i><span>Evolución · parcela</span></div>
-              <img src="../assets/atlas-postfire.webp" alt="Seguimiento postincendio de una parcela en Atlas BioScan" loading="lazy">
-            </figure>
-          </article>
-
-          <article class="atlas-evidence-card">
-            <div class="atlas-evidence-copy">
-              <span>Condición espacial</span>
-              <h3>Detectar persistencia, extensión y tendencia.</h3>
-              <p>La lectura multivariable combina vigor, humedad y anomalía espacial para visualizar cuánto territorio se desvía de su patrón histórico y cómo cambia mes a mes, sin saturar la lectura con información innecesaria.</p>
-            </div>
-            <figure class="atlas-product-window atlas-crop-spatial">
-              <div class="atlas-window-bar"><i></i><i></i><i></i><span>Analítica multitemporal</span></div>
-              <img src="../assets/atlas-spatial-evolution.webp" alt="Gráficos de evolución temporal y condición espacial en Atlas BioScan" loading="lazy">
-            </figure>
-          </article>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="section" id="ejecucion">
-      <div class="wrap split atlas-execution-split">
-        <div>
-          <div class="kicker">04 · Módulo de ejecución</div>
-          <h2 class="title">La plataforma no termina cuando detecta un problema.</h2>
-          <p class="intro">El valor operativo aparece cuando el análisis se transforma en una actuación trazable. Atlas BioScan incorpora una lógica de ejecución para seguir el trabajo desde la detección hasta la comprobación.</p>
-          <div class="list atlas-flow-list">
-            <div><b>Detectar</b><span>identificar zonas o situaciones relevantes</span></div>
-            <div><b>Priorizar</b><span>ordenar según criticidad y contexto</span></div>
-            <div><b>Planificar</b><span>definir actuación, ámbito y seguimiento</span></div>
-            <div><b>Ejecutar</b><span>registrar estado y avance del trabajo</span></div>
-            <div><b>Comprobar</b><span>verificar resultado y evolución posterior</span></div>
-          </div>
-        </div>
-        <div class="atlas-process-panel atlas-process-v10">
-          <div class="atlas-process-step"><span>01</span><b>Zona detectada</b><small>El sistema sitúa la atención</small></div>
-          <div class="atlas-process-step"><span>02</span><b>Prioridad asignada</b><small>La información se convierte en criterio</small></div>
-          <div class="atlas-process-step"><span>03</span><b>Actuación definida</b><small>Del mapa a una acción concreta</small></div>
-          <div class="atlas-process-step"><span>04</span><b>Estado de ejecución</b><small>Seguimiento del trabajo en curso</small></div>
-          <div class="atlas-process-step"><span>05</span><b>Resultado comprobado</b><small>Nueva lectura del territorio</small></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section atlas-priority-section" aria-labelledby="atlas-priority-title">
-      <div class="wrap">
-        <div class="atlas-priority-layout">
-          <div class="atlas-priority-copy">
-            <div class="kicker">Priorización territorial</div>
-            <h2 class="title" id="atlas-priority-title">Decisiones operativas respaldadas por evidencia visual.</h2>
-            <p class="intro">Cada prioridad conserva el contexto que la explica: superficie afectada, tendencia, cobertura observacional y comparación con el comportamiento histórico esperado.</p>
-            <div class="atlas-priority-list">
-              <div><strong>Series temporales</strong><span>Lectura histórica para entender la evolución de cada parcela sin perder el contexto operativo.</span></div>
-              <div><strong>Condición espacial</strong><span>Extensión y tendencia multimensual para valorar persistencia y severidad.</span></div>
-              <div><strong>Jerarquización operativa</strong><span>Prioridad alta, vigilancia o estado normal con acceso directo al seguimiento y al mapa.</span></div>
-            </div>
-          </div>
-          <figure class="atlas-product-window atlas-priority-window">
-            <div class="atlas-window-bar"><i></i><i></i><i></i><span>Atlas Intelligence · priorización territorial</span></div>
-            <img src="../assets/atlas-priority.webp" alt="Atlas Intelligence mostrando deterioro espacial persistente y priorización de parcelas" loading="lazy">
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="salida">
-      <div class="wrap">
-        <div class="kicker">05 · Salidas y apoyo a decisión</div>
-        <h2 class="title">La información debe poder explicarse, compartirse y defenderse.</h2>
-        <p class="intro">Por eso Atlas BioScan no se limita a la pantalla del visor. La plataforma dispone de herramientas para convertir el análisis en una salida comprensible para técnicos, responsables, entidades y clientes.</p>
-        <div class="featuregrid atlas-output-grid">
-          <div class="feature atlas-output"><h3>Informes PDF</h3><p>Generación de documentos que resumen contexto, indicadores y lectura territorial en un formato preparado para compartir.</p></div>
-          <div class="feature atlas-output"><h3>Asistente BioScan</h3><p>Una capa de ayuda contextual para interpretar la información visible y facilitar la comprensión del escenario analizado.</p></div>
-          <div class="feature atlas-output"><h3>Lectura por parcela y territorio</h3><p>Capacidad de pasar de la visión global a unidades concretas sin perder el contexto del conjunto.</p></div>
-          <div class="feature atlas-output"><h3>Seguimiento temporal</h3><p>Comparación entre periodos para identificar cambios, evolución y persistencia de situaciones relevantes.</p></div>
-          <div class="feature atlas-output"><h3>Priorización visual</h3><p>Mapas y clasificaciones que permiten comunicar con rapidez dónde está la atención y por qué.</p></div>
-          <div class="feature atlas-output"><h3>Entorno privado</h3><p>Acceso controlado para que cada organización consulte y trabaje dentro de un entorno propio.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section atlas-usecases">
-      <div class="wrap">
-        <div class="kicker">Aplicaciones</div>
-        <h2 class="title">Una misma plataforma, distintas necesidades territoriales.</h2>
-        <div class="cards atlas-cases-grid atlas-cases-v10">
-          <div class="card atlascase"><div class="num">A01</div><h3>Prevención forestal</h3><p>Priorización de zonas, planificación de actuaciones y seguimiento de trabajos preventivos.</p></div>
-          <div class="card atlascase"><div class="num">A02</div><h3>Administración local y supramunicipal</h3><p>Una visión compartida del territorio para ordenar necesidades, justificar prioridades y coordinar decisiones.</p></div>
-          <div class="card atlascase"><div class="num">A03</div><h3>Propiedad y gestión forestal</h3><p>Lectura de parcelas, condicionantes y evolución para planificar mejor el mantenimiento y la intervención.</p></div>
-          <div class="card atlascase"><div class="num">A04</div><h3>Infraestructura y entorno</h3><p>Análisis de proximidades y contexto territorial para apoyar prevención alrededor de elementos sensibles.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section atlas-final-cta">
-      <div class="wrap">
-        <div class="cta atlascta-box atlascta-v10">
-          <div>
-            <div class="kicker atlaskicker">Atlas BioScan</div>
-            <h2>Del dato territorial a una prioridad operativa.</h2>
-          </div>
-          <div>
-            <p>Una plataforma desarrollada por Arcadia Global Analytics para integrar observación, inteligencia y ejecución dentro de una misma herramienta de gestión territorial.</p>
-            <a class="btn atlasbtn" href="../contacto.html">Solicitar presentación ↗</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer atlas-footer">
-    <div class="wrap atlas-footer-wrap">
-      <div class="atlas-footer-left">
-        <img src="../assets/atlas-bioscan-logo.png" alt="Atlas BioScan">
-        <span>by Arcadia Global Analytics</span>
-      </div>
-      <div class="atlas-footer-right">Área privada de presentación</div>
-    </div>
-  </footer>
-  <script src="../assets/main.js"></script>
+<header class="nav atlasnav atlasnav-light">
+<div class="wrap navin atlasnavin">
+<div class="atlas-brand-duo">
+<a class="brand logo-brand atlas-arcadia" href="../index.html"><img alt="Arcadia Global Analytics" src="../assets/arcadia-logo-selected.png"/></a>
+<span class="atlas-brand-sep"></span>
+<a class="atlas-bioscan-header-logo" href="#top"><img alt="Atlas BioScan" src="../assets/atlas-bioscan-logo.png"/></a>
+</div>
+<nav class="links">
+<a href="#vision">Visión</a>
+<a href="#inteligencia">Inteligencia</a>
+<a href="#capas">Capas</a>
+<a href="#prevencion">Prevención</a>
+<a href="#ejecucion">Ejecución</a>
+<a href="#salida">Resultados</a>
+<a href="javascript:sessionStorage.removeItem('atlas_access');location.href='login.html'">Salir</a>
+</nav>
+<div aria-label="Idioma" class="lang-switch atlas-lang-switch"><a aria-current="page" class="active" href="index.html">ES</a><span>·</span><a href="../ca/atlas/index.html">CA</a><span>·</span><a href="../en/atlas/index.html">EN</a></div><button aria-label="Abrir menú" class="hamb">☰</button>
+</div>
+</header>
+<main id="top">
+<section class="atlashero atlashero-v10">
+<div class="atlasgrid atlasgrid-forest"></div>
+<div class="wrap atlas-hero-wrap atlas-hero-wrap-v10">
+<div class="atlas-hero-copy">
+<div class="kicker atlaskicker">Inteligencia territorial · prevención · ejecución</div>
+<h1>ATLAS <span>BIOSCAN</span></h1>
+<p class="atlas-hero-lead">Una plataforma para transformar grandes volúmenes de información forestal, ambiental y geoespacial en una lectura operativa del riesgo de incendio, la vulnerabilidad del territorio y las prioridades de gestión y actuación.</p>
+<div class="atlas-proof-row">
+<div><b>Observa</b><span>vegetación, humedad, relieve y evolución</span></div>
+<div><b>Contextualiza</b><span>entorno protegido, alertas e infraestructuras</span></div>
+<div><b>Prioriza</b><span>criticidad y necesidad de intervención</span></div>
+<div><b>Ejecuta</b><span>actuaciones, estados y seguimiento</span></div>
+</div>
+<div class="actions">
+<a class="btn atlasbtn" href="#vision">Cómo funciona ↓</a>
+<a class="btn atlasbtn ghost" href="#salida">Qué entrega</a>
+</div>
+</div>
+<div class="atlas-ui-mock">
+<div class="atlas-ui-top"><span>ATLAS BIOSCAN</span><small>lectura territorial</small></div>
+<div class="atlas-ui-body">
+<div class="atlas-ui-side">
+<i></i><i></i><i></i><i></i><i></i><i></i>
+</div>
+<div class="atlas-ui-map">
+<div class="parcel p-a"></div><div class="parcel p-b"></div><div class="parcel p-c"></div>
+<div class="riskdot r1"></div><div class="riskdot r2"></div><div class="riskdot r3"></div>
+<div class="atlas-map-label">PRIORIDAD TERRITORIAL</div>
+</div>
+</div>
+<div class="atlas-ui-bottom">
+<span>Vigor</span><span>Humedad</span><span>Relieve</span><span>Protección</span><span>Riesgo</span><span>Operaciones</span>
+</div>
+</div>
+</div>
+</section>
+<section class="section atlas-intro-strip" id="vision">
+<div class="wrap atlas-strip-grid">
+<div>
+<div class="kicker">Qué resuelve</div>
+<h2 class="title">De un territorio complejo a una decisión comprensible.</h2>
+</div>
+<div>
+<p class="intro">Atlas BioScan integra información que normalmente está dispersa entre mapas, fuentes oficiales, series temporales y análisis técnicos. La plataforma la reúne, la interpreta y la convierte en una visión única para responder tres preguntas: <strong>qué está ocurriendo, dónde conviene actuar y cómo hacer seguimiento.</strong></p>
+</div>
+</div>
+</section>
+<section class="section" id="inteligencia">
+<div class="wrap">
+<div class="kicker">01 · Inteligencia territorial</div>
+<h2 class="title">Más que visualizar datos: compararlos, interpretarlos y priorizarlos.</h2>
+<p class="intro">La plataforma trabaja con indicadores de lectura territorial y ambiental que convierten señales complejas en una lectura clara, visual y accionable para perfiles técnicos y operativos.</p>
+<div class="atlas-metric-grid">
+<div class="atlas-metric-card"><span class="atlas-code">IVE</span><h3>Estado de la vegetación</h3><p>Lectura del comportamiento y la condición vegetal para detectar diferencias, tendencias y señales relevantes.</p></div>
+<div class="atlas-metric-card"><span class="atlas-code">ICA</span><h3>Condición integrada</h3><p>Una visión sintética que ayuda a contextualizar el estado territorial y comparar zonas con criterios homogéneos.</p></div>
+<div class="atlas-metric-card"><span class="atlas-code">IPI</span><h3>Prioridad de intervención</h3><p>Una lectura orientada a ordenar áreas de atención y facilitar dónde concentrar primero recursos y revisión técnica.</p></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="atlas-intelligence-title" class="section atlas-product-showcase">
+<div class="wrap">
+<div class="atlas-showcase-head">
+<div>
+<div class="kicker">Atlas Intelligence · visión operativa</div>
+<h2 class="title" id="atlas-intelligence-title">De una señal territorial a una prioridad clara.</h2>
+</div>
+<p class="intro">La capa de inteligencia de Atlas BioScan transforma la observación continua en una lectura accionable: identifica qué parcelas requieren atención, explica el contexto de cada alerta y conserva la trazabilidad de la decisión operativa.</p>
+</div>
+<div class="atlas-screen-feature atlas-screen-feature-main">
+<div class="atlas-screen-copy">
+<span class="atlas-screen-eyebrow">Panel de atención inmediata</span>
+<h3>Priorizar primero lo que realmente necesita intervención.</h3>
+<p>Alertas, variaciones de vigor y humedad, calidad de observación y estado operativo se reúnen en una misma vista para reducir el tiempo de análisis y acelerar la respuesta sobre el terreno.</p>
+<div class="atlas-screen-points">
+<div><b>Detección automática</b><span>Incidencias críticas y parcelas en vigilancia.</span></div>
+<div><b>Contexto en una vista</b><span>Indicadores clave junto a la situación de cada parcela.</span></div>
+<div><b>Acción directa</b><span>Evolución, registro de actuaciones y acceso al mapa.</span></div>
+</div>
+</div>
+<figure class="atlas-product-window atlas-crop-top">
+<div class="atlas-window-bar"><i></i><i></i><i></i><span>Atlas Intelligence · resumen operativo</span></div>
+<img alt="Panel Atlas Intelligence con alertas y priorización de parcelas" loading="lazy" src="../assets/atlas-attention.webp"/>
+</figure>
+</div>
+</div>
+</section>
+<section class="section alt atlas-layers-section" id="capas">
+<div class="wrap">
+<div class="kicker">02 · Lectura multicapas</div>
+<h2 class="title">El territorio no se entiende con una sola capa.</h2>
+<p class="intro">Atlas BioScan combina observación de la vegetación, agua, relieve, protección ambiental, población e infraestructuras para aportar contexto a cada decisión.</p>
+<div class="atlas-capability-grid">
+<div class="atlas-capability"><b>Vigor y heterogeneidad</b><span>Lectura espacial del comportamiento vegetal y sus diferencias internas.</span></div>
+<div class="atlas-capability"><b>Humedad y estrés</b><span>Seguimiento de variaciones relacionadas con disponibilidad y comportamiento hídrico.</span></div>
+<div class="atlas-capability"><b>Relieve y pendiente</b><span>Contexto topográfico para entender condicionantes de accesibilidad, continuidad y exposición.</span></div>
+<div class="atlas-capability"><b>Espacios protegidos</b><span>Contextualización de parcelas y actuaciones respecto a ámbitos ambientales sensibles.</span></div>
+<div class="atlas-capability"><b>Población e interfaz urbano-forestal</b><span>Relación entre territorio, presencia humana y zonas que requieren especial atención.</span></div>
+<div class="atlas-capability"><b>Infraestructura eléctrica</b><span>Lectura de líneas, nodos y proximidades relevantes dentro del análisis territorial.</span></div>
+</div>
+</div>
+</section>
+<section class="section atlas-darkband" id="prevencion">
+<div class="wrap">
+<div class="kicker atlaskicker">03 · Prevención y contexto operativo</div>
+<h2 class="title atlas-dark-title">Una capa de prevención que se actualiza con el territorio.</h2>
+<p class="intro atlas-dark-intro">Atlas BioScan conecta la lectura estructural con información operativa para situar cada zona dentro de un contexto real de prevención y alerta.</p>
+<div class="atlas-risk-grid atlas-risk-grid-v10">
+<div class="atlas-risk-card"><b>Incendios e histórico</b><span>Memoria territorial y seguimiento de eventos para analizar impacto, evolución y recuperación.</span></div>
+<div class="atlas-risk-card"><b>Alertas y situación oficial</b><span>Información de contexto que ayuda a interpretar el escenario preventivo del momento.</span></div>
+<div class="atlas-risk-card"><b>Franjas y corredores</b><span>Lectura de áreas preventivas vinculadas a caminos, núcleos e infraestructuras críticas.</span></div>
+<div class="atlas-risk-card"><b>Prioridades de actuación</b><span>Ordenación visual de áreas que requieren revisión, planificación o intervención preferente.</span></div>
+</div>
+<div class="atlas-context-chips"><span>Pla Alfa</span><span>avisos meteorológicos</span><span>contexto Bombers</span><span>incendios activos</span><span>histórico</span><span>recuperación postincendio</span></div>
+</div>
+</section>
+<section aria-labelledby="atlas-evidence-title" class="section atlas-analytics-band">
+<div class="wrap">
+<div class="atlas-showcase-head atlas-showcase-head-dark">
+<div>
+<div class="kicker atlaskicker">Evidencia analítica</div>
+<h2 class="title atlas-dark-title" id="atlas-evidence-title">La evolución cuenta la historia completa.</h2>
+</div>
+<p class="intro atlas-dark-intro">Atlas no se limita a mostrar el estado actual. Las series históricas y la condición espacial permiten distinguir una oscilación puntual de un deterioro persistente y comprobar qué sucede después de una actuación o un incendio.</p>
+</div>
+<div class="atlas-evidence-grid">
+<article class="atlas-evidence-card">
+<div class="atlas-evidence-copy">
+<span>Seguimiento postincendio</span>
+<h3>Medir impacto, evolución y recuperación.</h3>
+<p>La serie histórica de NDVI y NDWI contextualiza el evento, mientras el seguimiento postincendio registra superficie afectada, recuperación espectral y actuaciones realizadas.</p>
+</div>
+<figure class="atlas-product-window atlas-crop-postfire">
+<div class="atlas-window-bar"><i></i><i></i><i></i><span>Evolución · parcela</span></div>
+<img alt="Seguimiento postincendio de una parcela en Atlas BioScan" loading="lazy" src="../assets/atlas-postfire.webp"/>
+</figure>
+</article>
+<article class="atlas-evidence-card">
+<div class="atlas-evidence-copy">
+<span>Condición espacial</span>
+<h3>Detectar persistencia, extensión y tendencia.</h3>
+<p>La lectura multivariable combina vigor, humedad y anomalía espacial para visualizar cuánto territorio se desvía de su patrón histórico y cómo cambia mes a mes, sin saturar la lectura con información innecesaria.</p>
+</div>
+<figure class="atlas-product-window atlas-crop-spatial">
+<div class="atlas-window-bar"><i></i><i></i><i></i><span>Analítica multitemporal</span></div>
+<img alt="Gráficos de evolución temporal y condición espacial en Atlas BioScan" loading="lazy" src="../assets/atlas-spatial-evolution.webp"/>
+</figure>
+</article>
+</div>
+</div>
+</section>
+<section class="section" id="ejecucion">
+<div class="wrap split atlas-execution-split">
+<div>
+<div class="kicker">04 · Módulo de ejecución</div>
+<h2 class="title">La plataforma no termina cuando detecta un problema.</h2>
+<p class="intro">El valor operativo aparece cuando el análisis se transforma en una actuación trazable. Atlas BioScan incorpora una lógica de ejecución para seguir el trabajo desde la detección hasta la comprobación.</p>
+<div class="list atlas-flow-list">
+<div><b>Detectar</b><span>identificar zonas o situaciones relevantes</span></div>
+<div><b>Priorizar</b><span>ordenar según criticidad y contexto</span></div>
+<div><b>Planificar</b><span>definir actuación, ámbito y seguimiento</span></div>
+<div><b>Ejecutar</b><span>registrar estado y avance del trabajo</span></div>
+<div><b>Comprobar</b><span>verificar resultado y evolución posterior</span></div>
+</div>
+</div>
+<div class="atlas-process-panel atlas-process-v10">
+<div class="atlas-process-step"><span>01</span><b>Zona detectada</b><small>El sistema sitúa la atención</small></div>
+<div class="atlas-process-step"><span>02</span><b>Prioridad asignada</b><small>La información se convierte en criterio</small></div>
+<div class="atlas-process-step"><span>03</span><b>Actuación definida</b><small>Del mapa a una acción concreta</small></div>
+<div class="atlas-process-step"><span>04</span><b>Estado de ejecución</b><small>Seguimiento del trabajo en curso</small></div>
+<div class="atlas-process-step"><span>05</span><b>Resultado comprobado</b><small>Nueva lectura del territorio</small></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="atlas-priority-title" class="section atlas-priority-section">
+<div class="wrap">
+<div class="atlas-priority-layout">
+<div class="atlas-priority-copy">
+<div class="kicker">Priorización territorial</div>
+<h2 class="title" id="atlas-priority-title">Decisiones operativas respaldadas por evidencia visual.</h2>
+<p class="intro">Cada prioridad conserva el contexto que la explica: superficie afectada, tendencia, cobertura observacional y comparación con el comportamiento histórico esperado.</p>
+<div class="atlas-priority-list">
+<div><strong>Series temporales</strong><span>Lectura histórica para entender la evolución de cada parcela sin perder el contexto operativo.</span></div>
+<div><strong>Condición espacial</strong><span>Extensión y tendencia multimensual para valorar persistencia y severidad.</span></div>
+<div><strong>Jerarquización operativa</strong><span>Prioridad alta, vigilancia o estado normal con acceso directo al seguimiento y al mapa.</span></div>
+</div>
+</div>
+<figure class="atlas-product-window atlas-priority-window">
+<div class="atlas-window-bar"><i></i><i></i><i></i><span>Atlas Intelligence · priorización territorial</span></div>
+<img alt="Atlas Intelligence mostrando deterioro espacial persistente y priorización de parcelas" loading="lazy" src="../assets/atlas-priority.webp"/>
+</figure>
+</div>
+</div>
+</section>
+<section class="section alt" id="salida">
+<div class="wrap">
+<div class="kicker">05 · Salidas y apoyo a decisión</div>
+<h2 class="title">La información debe poder explicarse, compartirse y defenderse.</h2>
+<p class="intro">Por eso Atlas BioScan no se limita a la pantalla del visor. La plataforma dispone de herramientas para convertir el análisis en una salida comprensible para técnicos, responsables, entidades y clientes.</p>
+<div class="featuregrid atlas-output-grid">
+<div class="feature atlas-output"><h3>Informes PDF</h3><p>Generación de documentos que resumen contexto, indicadores y lectura territorial en un formato preparado para compartir.</p></div>
+<div class="feature atlas-output"><h3>Asistente BioScan</h3><p>Una capa de ayuda contextual para interpretar la información visible y facilitar la comprensión del escenario analizado.</p></div>
+<div class="feature atlas-output"><h3>Lectura por parcela y territorio</h3><p>Capacidad de pasar de la visión global a unidades concretas sin perder el contexto del conjunto.</p></div>
+<div class="feature atlas-output"><h3>Seguimiento temporal</h3><p>Comparación entre periodos para identificar cambios, evolución y persistencia de situaciones relevantes.</p></div>
+<div class="feature atlas-output"><h3>Priorización visual</h3><p>Mapas y clasificaciones que permiten comunicar con rapidez dónde está la atención y por qué.</p></div>
+<div class="feature atlas-output"><h3>Entorno privado</h3><p>Acceso controlado para que cada organización consulte y trabaje dentro de un entorno propio.</p></div>
+</div>
+</div>
+</section>
+<section class="section atlas-usecases">
+<div class="wrap">
+<div class="kicker">Aplicaciones</div>
+<h2 class="title">Una misma plataforma, distintas necesidades territoriales.</h2>
+<div class="cards atlas-cases-grid atlas-cases-v10">
+<div class="card atlascase"><div class="num">A01</div><h3>Prevención forestal</h3><p>Priorización de zonas, planificación de actuaciones y seguimiento de trabajos preventivos.</p></div>
+<div class="card atlascase"><div class="num">A02</div><h3>Administración local y supramunicipal</h3><p>Una visión compartida del territorio para ordenar necesidades, justificar prioridades y coordinar decisiones.</p></div>
+<div class="card atlascase"><div class="num">A03</div><h3>Propiedad y gestión forestal</h3><p>Lectura de parcelas, condicionantes y evolución para planificar mejor el mantenimiento y la intervención.</p></div>
+<div class="card atlascase"><div class="num">A04</div><h3>Infraestructura y entorno</h3><p>Análisis de proximidades y contexto territorial para apoyar prevención alrededor de elementos sensibles.</p></div>
+</div>
+</div>
+</section>
+<section class="section atlas-final-cta">
+<div class="wrap">
+<div class="cta atlascta-box atlascta-v10">
+<div>
+<div class="kicker atlaskicker">Atlas BioScan</div>
+<h2>Del dato territorial a una prioridad operativa.</h2>
+</div>
+<div>
+<p>Una plataforma desarrollada por Arcadia Global Analytics para integrar observación, inteligencia y ejecución dentro de una misma herramienta de gestión territorial.</p>
+<a class="btn atlasbtn" href="../contacto.html">Solicitar presentación ↗</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer atlas-footer">
+<div class="wrap atlas-footer-wrap">
+<div class="atlas-footer-left">
+<img alt="Atlas BioScan" src="../assets/atlas-bioscan-logo.png"/>
+<span>by Arcadia Global Analytics</span>
+</div>
+<div class="atlas-footer-right">Área privada de presentación</div>
+</div>
+</footer>
+<script src="../assets/main.js"></script>
 </body>
 </html>
