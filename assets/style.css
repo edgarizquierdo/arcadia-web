@@ -591,3 +591,13 @@
 .lang-switch{display:flex;align-items:center;gap:6px;margin-left:auto;font-size:12px;font-weight:700;letter-spacing:.08em;white-space:nowrap}.lang-switch a{color:inherit;opacity:.48;text-decoration:none}.lang-switch a:hover,.lang-switch a.active{opacity:1}.lang-switch span{opacity:.25}.navin>.lang-switch+.hamb{margin-left:10px}@media(max-width:900px){.lang-switch{margin-left:auto;margin-right:2px;font-size:11px}.links.open{z-index:30}}
 
 .atlas-lang-switch{z-index:40}.atlasbody>.atlas-lang-switch{position:fixed;top:18px;right:22px;color:#183325;background:rgba(255,255,255,.9);padding:8px 10px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.08)}
+
+/* Atlas BioScan: public project showcase (no link to private /atlas/) */
+.atlas-project-card{border-color:rgba(96,143,117,.38);background:linear-gradient(155deg,#fff,#eef4eb)}
+.atlas-project-card .num{color:#466f53;font-weight:750}
+.atlas-project-section{padding-top:12px}
+.atlas-project-spotlight{background:linear-gradient(135deg,#0b1d20,#16352f 65%,#1c3a32)}
+.atlas-project-spotlight .kicker{color:#b9dc9d}
+.atlas-project-logo{display:block;width:180px;max-height:100px;object-fit:contain;object-position:left center;margin:16px 0 10px}
+.atlas-project-spotlight h2{margin-top:8px}
+.atlas-project-spotlight .project-points div{background:rgba(255,255,255,.055)}
