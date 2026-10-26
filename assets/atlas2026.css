@@ -1,0 +1,32 @@
+
+/* Atlas BioScan 2026: detailed pillar sections, scoped to product pages */
+.atlasbioscan-page .atlas2026{position:relative;background:#f8faf8;color:#172a28}
+.atlasbioscan-page .atlas2026 .atlas2026-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#168364;margin-bottom:14px}
+.atlasbioscan-page .atlas2026 h2{font-size:clamp(30px,4vw,48px);letter-spacing:-.045em;line-height:1.13;margin:0 0 22px;color:#112d27;max-width:940px}
+.atlasbioscan-page .atlas2026-lead{font-size:clamp(16px,1.65vw,19px);color:#516761;max-width:900px;line-height:1.8;margin:0 0 30px}
+.atlasbioscan-page .atlas2026 .wrap{padding-top:84px;padding-bottom:84px}
+.atlasbioscan-page .atlas2026-dark{background:#122e2b;color:#f6fbf8}
+.atlasbioscan-page .atlas2026-dark h2{color:#fff}.atlasbioscan-page .atlas2026-dark .atlas2026-lead{color:#c6d9d2}.atlasbioscan-page .atlas2026-dark .atlas2026-eyebrow{color:#83d7bb}
+.atlasbioscan-page .atlas2026-pillar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.atlasbioscan-page .atlas2026-pillar{padding:29px;border-radius:20px;border:1px solid #dbe5e1;background:#fff;box-shadow:0 8px 28px rgba(10,35,25,.04);position:relative}
+.atlasbioscan-page .atlas2026-pillar:last-child{grid-column:span 2;background:#eaf4f0;border-color:#b9dcd0}
+.atlasbioscan-page .atlas2026-number{display:inline-flex;padding:6px 12px;border:1px solid #b8d9cd;background:#e6f4ee;color:#176b53;border-radius:100px;font-weight:800;font-size:12px;letter-spacing:.1em;margin-bottom:16px}
+.atlasbioscan-page .atlas2026-pillar h3{font-size:26px;line-height:1.2;margin:0 0 7px;color:#14392e;letter-spacing:-.025em}
+.atlasbioscan-page .atlas2026-pillar h4{font-size:15px;color:#23765f;margin:0 0 12px;font-weight:750}
+.atlasbioscan-page .atlas2026-pillar p{color:#53645e;line-height:1.75;margin:0}
+.atlasbioscan-page .atlas2026-video{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+.atlasbioscan-page .atlas2026-placeholder{min-height:315px;border:1px solid #66887c;border-radius:22px;background:radial-gradient(circle at 70% 30%,#284f48 0%,#153a32 50%,#0b211c 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;padding:30px;text-align:center;position:relative;overflow:hidden}
+.atlasbioscan-page .atlas2026-placeholder:before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(120deg,transparent 0 45px,#ffffff07 46px 47px)}
+.atlasbioscan-page .atlas2026-play{display:grid;place-items:center;width:78px;height:78px;border:2px solid #9fe7cf;border-radius:50%;font-size:28px;color:#c9f9e6;margin-bottom:22px;z-index:1}
+.atlasbioscan-page .atlas2026-placeholder b,.atlasbioscan-page .atlas2026-placeholder span{position:relative;z-index:1}
+.atlasbioscan-page .atlas2026-placeholder b{font-size:15px;letter-spacing:.13em}.atlasbioscan-page .atlas2026-placeholder span{font-size:13px;color:#bfdbd1;margin-top:10px}
+.atlasbioscan-page .atlas2026-audiences{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.atlasbioscan-page .atlas2026-audience{border:1px solid #dbe5e1;background:#fff;padding:23px;border-radius:18px}
+.atlasbioscan-page .atlas2026-audience strong{display:block;color:#163e31;font-size:17px;margin-bottom:10px}
+.atlasbioscan-page .atlas2026-audience p{margin:0;color:#5a6a65;font-size:14px;line-height:1.65}
+.atlasbioscan-page .atlas2026-boscat{border:1px solid #bce2d2;border-radius:24px;padding:40px;background:linear-gradient(140deg,#e1f2ea,#f6fcf9);max-width:1030px}
+.atlasbioscan-page .atlas2026-boscat p{color:#536a61;line-height:1.8;max-width:790px}.atlasbioscan-page .atlas2026-status{font-size:13px;color:#356953;border-top:1px solid #c0dcd0;padding-top:15px;margin-top:25px}
+.atlasbioscan-page .atlas2026-note{font-size:13px;color:#6d8178;border-left:3px solid #279877;padding-left:14px;max-width:780px}
+.atlasbioscan-page .atlas2026-navlink{color:#166d56}
+@media(max-width:900px){.atlasbioscan-page .atlas2026-audiences{grid-template-columns:repeat(2,1fr)}.atlasbioscan-page .atlas2026-video{grid-template-columns:1fr;gap:24px}}
+@media(max-width:640px){.atlasbioscan-page .atlas2026 .wrap{padding-top:56px;padding-bottom:56px}.atlasbioscan-page .atlas2026-pillar-grid,.atlasbioscan-page .atlas2026-audiences{grid-template-columns:1fr}.atlasbioscan-page .atlas2026-pillar:last-child{grid-column:auto}.atlasbioscan-page .atlas2026-pillar{padding:24px}.atlasbioscan-page .atlas2026-placeholder{min-height:240px}.atlasbioscan-page .atlas2026-boscat{padding:26px}}
