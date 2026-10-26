@@ -30,3 +30,33 @@
 .atlasbioscan-page .atlas2026-navlink{color:#166d56}
 @media(max-width:900px){.atlasbioscan-page .atlas2026-audiences{grid-template-columns:repeat(2,1fr)}.atlasbioscan-page .atlas2026-video{grid-template-columns:1fr;gap:24px}}
 @media(max-width:640px){.atlasbioscan-page .atlas2026 .wrap{padding-top:56px;padding-bottom:56px}.atlasbioscan-page .atlas2026-pillar-grid,.atlasbioscan-page .atlas2026-audiences{grid-template-columns:1fr}.atlasbioscan-page .atlas2026-pillar:last-child{grid-column:auto}.atlasbioscan-page .atlas2026-pillar{padding:24px}.atlasbioscan-page .atlas2026-placeholder{min-height:240px}.atlasbioscan-page .atlas2026-boscat{padding:26px}}
+
+
+/* Atlas BioScan - contraste de idiomas y etiquetas sobre fondo claro (2026-10-26) */
+.atlasbody .atlas-lang-switch {
+  color: #36434a !important;
+}
+.atlasbody .atlas-lang-switch a,
+.atlasbody .atlas-lang-switch a:link,
+.atlasbody .atlas-lang-switch a:visited {
+  color: #36434a !important;
+  opacity: .82 !important;
+  -webkit-text-fill-color: #36434a !important;
+}
+.atlasbody .atlas-lang-switch a.active,
+.atlasbody .atlas-lang-switch a[aria-current="page"],
+.atlasbody .atlas-lang-switch a:hover,
+.atlasbody .atlas-lang-switch a:focus-visible {
+  color: #17252b !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #17252b !important;
+}
+.atlasbody .atlas-lang-switch span {
+  color: #6a777d !important;
+  opacity: 1 !important;
+}
+.atlasbody.atlas-v10 .atlas-layers-section .kicker {
+  color: #168364 !important;
+  -webkit-text-fill-color: #168364 !important;
+  opacity: 1 !important;
+}
