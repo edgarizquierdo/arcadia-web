@@ -95,3 +95,9 @@
 .atlasbioscan-page .atlasv3-disclaimer{max-width:1030px;font-size:13px;line-height:1.7;color:#52675d;margin:20px 0 27px;border-left:3px solid #168364;padding-left:15px}
 @media(max-width:800px){.atlasbioscan-page .atlasv3-benefits{grid-template-columns:1fr}.atlasbioscan-page .atlasv3-cycle ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.atlasbioscan-page .atlasv3-cycle ol{grid-template-columns:1fr}.atlasbioscan-page .atlasv3-benefit{padding:22px}.atlasbioscan-page .atlasv3-cycle{padding:20px}}
+
+/* Video playback quality hint: Atlas BioScan ES / CA / EN */
+.atlasbioscan-page .atlas2026-video-quality{display:flex;align-items:flex-start;justify-content:flex-end;gap:9px;margin:13px 2px 0;color:#b4cdc3;font-size:12px;line-height:1.55;text-align:right;}
+.atlasbioscan-page .atlas2026-video-quality svg{width:16px;height:16px;flex:0 0 16px;color:#89d9c0;margin-top:1px;}
+.atlasbioscan-page .atlas2026-video-quality strong{color:#e3f3ed;font-weight:650;}
+@media(max-width:640px){.atlasbioscan-page .atlas2026-video-quality{justify-content:flex-start;text-align:left;font-size:12px;margin-top:12px;}}
